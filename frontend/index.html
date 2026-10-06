@@ -46,25 +46,32 @@
     <!-- ======================================================= -->
     <!-- LEFT SIDEBAR: Navigation, Profile & Settings (250px) -->
     <!-- ======================================================= -->
-    <aside class="hidden md:flex flex-col justify-between w-64 lg:w-72 h-screen sticky top-0 py-4 px-3 border-r border-borderSubtle">
+    <aside class="hidden md:flex flex-col w-64 lg:w-72 h-screen sticky top-0 py-4 px-3 border-r border-borderSubtle">
       <div class="space-y-4">
         
-        <!-- Logo & Branding: Varsity (Custom Monogram V Logo) -->
-        <div class="flex items-center gap-3 px-3 py-1 mb-2 select-none">
-          <div class="w-10 h-10 rounded-xl overflow-hidden flex items-center justify-center bg-surface border border-borderMedium shrink-0">
-            <svg class="w-7 h-7 text-textPrimary" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-              <polygon points="15,20 50,85 85,20 68,20 50,55 32,20" fill="currentColor" fill-opacity="0.15" stroke="currentColor"/>
-              <line x1="50" y1="55" x2="50" y2="85" stroke-width="7"/>
-              <line x1="32" y1="20" x2="68" y2="20" stroke-width="7"/>
-              <polyline points="22,35 50,70 78,35" stroke-width="4"/>
-            </svg>
-          </div>
-          <div>
-            <div class="flex items-center gap-1.5">
-              <span class="font-extrabold text-xl tracking-tight">Varsity</span>
+        <!-- Logo & Branding: Varsity (Custom Monogram V Logo) with Minimal Dark/Light Button -->
+        <div class="flex items-center justify-between px-3 py-1 mb-2 select-none">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl overflow-hidden flex items-center justify-center bg-surface border border-borderMedium shrink-0">
+              <svg class="w-7 h-7 text-textPrimary" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="15,20 50,85 85,20 68,20 50,55 32,20" fill="currentColor" fill-opacity="0.15" stroke="currentColor"/>
+                <line x1="50" y1="55" x2="50" y2="85" stroke-width="7"/>
+                <line x1="32" y1="20" x2="68" y2="20" stroke-width="7"/>
+                <polyline points="22,35 50,70 78,35" stroke-width="4"/>
+              </svg>
             </div>
-            <p class="text-[11px] text-textMuted font-medium">Campus Social</p>
+            <div>
+              <div class="flex items-center gap-1.5">
+                <span class="font-extrabold text-xl tracking-tight">Varsity</span>
+              </div>
+              <p class="text-[11px] text-textMuted font-medium">Campus Social</p>
+            </div>
           </div>
+
+          <!-- Clean Icon-Only Theme Switcher Button -->
+          <button onclick="toggleTheme()" title="Switch dark/light mode" class="w-9 h-9 rounded-xl flex items-center justify-center bg-surface hover:bg-surfaceHover border border-borderSubtle text-sm text-textSecondary hover:text-textPrimary transition shadow-sm cursor-pointer">
+            <span id="theme-icon">🌙</span>
+          </button>
         </div>
 
         <!-- Navigation Links -->
@@ -109,43 +116,29 @@
           </a>
         </nav>
 
-        <!-- Quick Post Simulator Button -->
-        <div class="pt-2">
-          <button onclick="openSettingsDrawer('sandbox')" class="w-full bg-accentContrast text-[var(--accent-contrast-text)] hover:opacity-90 font-semibold py-2.5 px-4 rounded-full text-sm transition shadow-sm flex items-center justify-center gap-2">
+        <!-- Quick Post Simulator Button & Profile Card placed together -->
+        <div class="pt-2 space-y-2.5">
+          <button onclick="openSettingsDrawer('sandbox')" class="w-full bg-accentContrast text-[var(--accent-contrast-text)] hover:opacity-90 font-semibold py-2.5 px-4 rounded-full text-sm transition shadow-sm flex items-center justify-center gap-2 cursor-pointer">
             <span>🛡️ Attack Sandbox</span>
           </button>
-        </div>
 
-      </div>
-
-      <!-- Bottom User Profile Card & Theme Switcher (Profile moved above darkmode toggle per Image 3) -->
-      <div class="space-y-2.5 pt-3 border-t border-borderSubtle">
-        
-        <!-- Active User Profile Card (Moved right below sandbox button and above dark mode toggle) -->
-        <div onclick="openProfileModal()" class="flex items-center justify-between p-2 rounded-xl hover:bg-surfaceHover border border-borderSubtle cursor-pointer transition select-none bg-surface/50">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <div id="user-avatar" class="w-9 h-9 rounded-full bg-surfaceElevated border border-borderMedium flex items-center justify-center font-bold text-xs text-textPrimary shrink-0">
-              U
-            </div>
-            <div class="truncate">
-              <div class="flex items-center gap-1.5">
-                <span id="user-display-name" class="font-bold text-xs truncate">Loading...</span>
-                <span id="cold-start-badge" class="hidden text-[9px] font-mono px-1.5 py-0.2 rounded-full border border-borderStrong text-textMuted shrink-0">Cold</span>
+          <!-- Active User Profile Option (Directly below Attack Sandbox) -->
+          <div onclick="openProfileModal()" class="flex items-center justify-between p-2.5 rounded-xl hover:bg-surfaceHover border border-borderSubtle cursor-pointer transition select-none bg-surface/50">
+            <div class="flex items-center gap-2.5 min-w-0">
+              <div id="user-avatar" class="w-9 h-9 rounded-full bg-surfaceElevated border border-borderMedium flex items-center justify-center font-bold text-xs text-textPrimary shrink-0">
+                U
               </div>
-              <p id="user-handle" class="text-[11px] text-textMuted font-mono truncate">@user</p>
+              <div class="truncate">
+                <div class="flex items-center gap-1.5">
+                  <span id="user-display-name" class="font-bold text-xs truncate">Loading...</span>
+                  <span id="cold-start-badge" class="hidden text-[9px] font-mono px-1.5 py-0.2 rounded-full border border-borderStrong text-textMuted shrink-0">Cold</span>
+                </div>
+                <p id="user-handle" class="text-[11px] text-textMuted font-mono truncate">@user</p>
+              </div>
             </div>
+            <svg class="w-4 h-4 text-textMuted shrink-0 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/></svg>
           </div>
-          <svg class="w-4 h-4 text-textMuted shrink-0 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/></svg>
         </div>
-
-        <!-- Theme Toggle Button -->
-        <button onclick="toggleTheme()" class="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-surface hover:bg-surfaceHover border border-borderSubtle text-xs transition">
-          <span class="flex items-center gap-2 text-textSecondary font-medium">
-            <span id="theme-icon">🌙</span>
-            <span id="theme-label">Dark Mode</span>
-          </span>
-          <span class="badge-clean text-[10px]">Toggle</span>
-        </button>
 
       </div>
     </aside>
@@ -242,17 +235,11 @@
         <div class="bg-surface rounded-2xl border border-borderSubtle p-4 space-y-3">
           <h2 class="font-bold text-sm text-textPrimary tracking-tight">What's happening</h2>
           
-          <div class="space-y-3 text-xs">
+          <div class="space-y-2.5 text-xs">
             <div onclick="filterFeedByTag('#hackathon')" class="group cursor-pointer">
               <p class="text-[10px] text-textMuted">Trending in Campus Clubs</p>
               <p class="font-bold text-textPrimary group-hover:underline">#hackathon</p>
               <p class="text-[10px] text-textMuted">28 posts • Engineering Quad</p>
-            </div>
-
-            <div onclick="filterFeedByTag('#midterm')" class="group cursor-pointer">
-              <p class="text-[10px] text-textMuted">Academic • Trending</p>
-              <p class="font-bold text-textPrimary group-hover:underline">#midterm</p>
-              <p class="text-[10px] text-textMuted">19 posts • CS &amp; Math</p>
             </div>
 
             <div onclick="filterFeedByTag('#ai')" class="group cursor-pointer">
@@ -261,16 +248,10 @@
               <p class="text-[10px] text-textMuted">42 posts • Research Labs</p>
             </div>
 
-            <div onclick="filterFeedByTag('#robotics')" class="group cursor-pointer">
-              <p class="text-[10px] text-textMuted">Campus Life • Events</p>
-              <p class="font-bold text-textPrimary group-hover:underline">#robotics</p>
-              <p class="text-[10px] text-textMuted">15 posts • Central Courtyard</p>
-            </div>
-
-            <div onclick="filterFeedByTag('#careerfair')" class="group cursor-pointer">
-              <p class="text-[10px] text-textMuted">Student Opportunities</p>
-              <p class="font-bold text-textPrimary group-hover:underline">#careerfair</p>
-              <p class="text-[10px] text-textMuted">11 posts • Student Center</p>
+            <div onclick="filterFeedByTag('#midterm')" class="group cursor-pointer">
+              <p class="text-[10px] text-textMuted">Academic • Trending</p>
+              <p class="font-bold text-textPrimary group-hover:underline">#midterm</p>
+              <p class="text-[10px] text-textMuted">19 posts • CS &amp; Math</p>
             </div>
           </div>
         </div>
@@ -294,28 +275,14 @@
           </div>
         </div>
 
-        <!-- Live Pipeline Telemetry Card (Moved from timeline header to directly above Recommender Control per user request) -->
-        <div class="bg-surface rounded-2xl border border-borderSubtle p-3.5 space-y-2 text-xs">
-          <div class="flex items-center justify-between">
-            <div class="flex items-center gap-2">
-              <span class="pulse-online"></span>
-              <span id="header-pipeline-mode" class="font-bold text-textPrimary">Hybrid Heavy Ranker</span>
-            </div>
-            <button onclick="openSettingsDrawer()" class="text-[11px] font-mono text-textMuted hover:text-textPrimary transition">⚙️ Sliders</button>
-          </div>
-          <div class="flex items-center justify-between font-mono text-[11px] text-textSecondary pt-0.5">
-            <span>Latency: <strong id="header-latency" class="text-textPrimary">-- ms</strong></span>
-            <span>Candidates: <strong id="header-retrieved" class="text-textPrimary">--</strong></span>
-          </div>
-        </div>
-
-        <!-- Recommender Control Card (Cleaned: removed unnecessary FastAPI+iALS badge) -->
+        <!-- Recommender Control Card (Moved up so it is fully visible and not cut off) -->
         <div class="bg-surface rounded-2xl border border-borderSubtle p-4 space-y-3 text-xs">
           <div class="flex items-center justify-between">
             <span class="font-bold text-textPrimary">Recommender Control</span>
+            <span id="sidebar-defense-badge" class="font-mono text-[11px] text-textMuted">Disabled</span>
           </div>
           
-          <div class="text-[11px] text-textSecondary space-y-1">
+          <div class="text-[11px] text-textSecondary space-y-1.5">
             <div class="flex justify-between">
               <span>Catalog Corpus:</span>
               <span class="font-mono font-bold text-textPrimary">3,500 posts</span>
@@ -324,15 +291,11 @@
               <span>Active Students:</span>
               <span class="font-mono font-bold text-textPrimary">400 users</span>
             </div>
-            <div class="flex justify-between">
-              <span>Defense Filter:</span>
-              <span id="sidebar-defense-badge" class="font-mono text-textMuted">Disabled</span>
-            </div>
           </div>
 
           <div class="pt-2 border-t border-borderSubtle">
-            <button onclick="openSettingsDrawer()" class="w-full py-2 bg-surfaceHover hover:bg-surfaceElevated border border-borderSubtle text-textPrimary rounded-xl text-xs font-semibold transition text-center flex items-center justify-center gap-1.5">
-              <span>⚙️ Configure Sliders &amp; Attack Sandbox</span>
+            <button onclick="openSettingsDrawer()" class="w-full py-2 bg-surfaceHover hover:bg-surfaceElevated border border-borderSubtle text-textPrimary rounded-xl text-xs font-semibold transition text-center flex items-center justify-center gap-1.5 cursor-pointer">
+              <span>⚙️ Sliders &amp; Attack Sandbox</span>
             </button>
           </div>
         </div>
