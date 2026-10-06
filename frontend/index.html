@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mini-X | Campus Social Feed Recommender</title>
+  <title>Varsity | Campus Social Feed</title>
   
   <!-- Tailwind CSS via CDN with custom neutral theme -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -49,17 +49,21 @@
     <aside class="hidden md:flex flex-col justify-between w-64 lg:w-72 h-screen sticky top-0 py-4 px-3 border-r border-borderSubtle">
       <div class="space-y-4">
         
-        <!-- Logo -->
-        <div class="flex items-center gap-3 px-3 py-1 mb-2">
-          <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-xl tracking-tighter bg-accentContrast text-[var(--accent-contrast-text)] select-none">
-            𝕏
+        <!-- Logo & Branding: Varsity (Custom Monogram V Logo) -->
+        <div class="flex items-center gap-3 px-3 py-1 mb-2 select-none">
+          <div class="w-10 h-10 rounded-xl overflow-hidden flex items-center justify-center bg-surface border border-borderMedium shrink-0">
+            <svg class="w-7 h-7 text-textPrimary" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="15,20 50,85 85,20 68,20 50,55 32,20" fill="currentColor" fill-opacity="0.15" stroke="currentColor"/>
+              <line x1="50" y1="55" x2="50" y2="85" stroke-width="7"/>
+              <line x1="32" y1="20" x2="68" y2="20" stroke-width="7"/>
+              <polyline points="22,35 50,70 78,35" stroke-width="4"/>
+            </svg>
           </div>
           <div>
-            <div class="flex items-center gap-2">
-              <span class="font-extrabold text-base tracking-tight">Mini-X</span>
-              <span class="badge-clean text-[10px] py-0 px-1.5 font-mono">x-algorithm</span>
+            <div class="flex items-center gap-1.5">
+              <span class="font-extrabold text-xl tracking-tight">Varsity</span>
             </div>
-            <p class="text-[11px] text-textMuted">Campus Hybrid RecSys</p>
+            <p class="text-[11px] text-textMuted font-medium">Campus Social</p>
           </div>
         </div>
 
@@ -86,16 +90,16 @@
             </div>
           </a>
 
-          <!-- Profile / Impersonate Persona -->
+          <!-- Profile & Persona -->
           <a id="nav-profile" onclick="openProfileModal()" class="nav-item">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
-            <span>Profile & Persona</span>
+            <span>Profile &amp; Persona</span>
           </a>
 
           <!-- Sliders & Settings (Drawer Trigger) -->
           <a id="nav-settings" onclick="openSettingsDrawer()" class="nav-item">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>
-            <span>Sliders & Settings</span>
+            <span>Sliders &amp; Settings</span>
           </a>
 
           <!-- Benchmarks & Academic Report -->
@@ -114,22 +118,13 @@
 
       </div>
 
-      <!-- Bottom User Pill & Theme Switcher -->
-      <div class="space-y-3 pt-4 border-t border-borderSubtle">
+      <!-- Bottom User Profile Card & Theme Switcher (Profile moved above darkmode toggle per Image 3) -->
+      <div class="space-y-2.5 pt-3 border-t border-borderSubtle">
         
-        <!-- Theme Toggle Button -->
-        <button onclick="toggleTheme()" class="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-surface hover:bg-surfaceHover border border-borderSubtle text-xs transition">
-          <span class="flex items-center gap-2 text-textSecondary font-medium">
-            <span id="theme-icon">🌙</span>
-            <span id="theme-label">Dark Mode</span>
-          </span>
-          <span class="badge-clean text-[10px]">Toggle</span>
-        </button>
-
-        <!-- Active User Profile Card -->
-        <div onclick="openProfileModal()" class="flex items-center justify-between p-2 rounded-full hover:bg-surfaceHover border border-transparent hover:border-borderSubtle cursor-pointer transition select-none">
+        <!-- Active User Profile Card (Moved right below sandbox button and above dark mode toggle) -->
+        <div onclick="openProfileModal()" class="flex items-center justify-between p-2 rounded-xl hover:bg-surfaceHover border border-borderSubtle cursor-pointer transition select-none bg-surface/50">
           <div class="flex items-center gap-2.5 min-w-0">
-            <div id="user-avatar" class="w-9 h-9 rounded-full bg-surface border border-borderMedium flex items-center justify-center font-bold text-xs text-textPrimary shrink-0">
+            <div id="user-avatar" class="w-9 h-9 rounded-full bg-surfaceElevated border border-borderMedium flex items-center justify-center font-bold text-xs text-textPrimary shrink-0">
               U
             </div>
             <div class="truncate">
@@ -143,6 +138,15 @@
           <svg class="w-4 h-4 text-textMuted shrink-0 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/></svg>
         </div>
 
+        <!-- Theme Toggle Button -->
+        <button onclick="toggleTheme()" class="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-surface hover:bg-surfaceHover border border-borderSubtle text-xs transition">
+          <span class="flex items-center gap-2 text-textSecondary font-medium">
+            <span id="theme-icon">🌙</span>
+            <span id="theme-label">Dark Mode</span>
+          </span>
+          <span class="badge-clean text-[10px]">Toggle</span>
+        </button>
+
       </div>
     </aside>
 
@@ -151,16 +155,16 @@
     <!-- ======================================================= -->
     <main class="w-full max-w-[620px] min-h-screen border-r border-borderSubtle flex flex-col">
       
-      <!-- Top Sticky Header: Tabs & Quick Controls -->
+      <!-- Top Sticky Header: Tabs Only (Telemetry bar removed to clean up feed) -->
       <header class="sticky top-0 z-30 bg-canvas/90 backdrop-blur-md border-b border-borderSubtle">
         
         <!-- Top Title Bar (Mobile Logo & Quick Latency) -->
         <div class="flex items-center justify-between px-4 py-2.5 border-b border-borderSubtle md:hidden">
           <div class="flex items-center gap-2">
-            <div class="w-7 h-7 rounded-full bg-accentContrast text-[var(--accent-contrast-text)] flex items-center justify-center font-bold text-xs">
-              𝕏
+            <div class="w-7 h-7 rounded-lg bg-surface border border-borderMedium flex items-center justify-center font-bold text-xs">
+              V
             </div>
-            <span class="font-bold text-sm">Mini-X</span>
+            <span class="font-bold text-sm">Varsity</span>
           </div>
           <div class="flex items-center gap-2">
             <button onclick="toggleTheme()" class="p-1.5 rounded-lg border border-borderSubtle text-xs">🌙</button>
@@ -177,34 +181,16 @@
             Following
           </div>
           <div id="tab-history" onclick="switchTimelineTab('history')" class="top-tab">
-            Saved & Liked
+            Saved &amp; Liked
           </div>
-        </div>
-
-        <!-- Subheader Telemetry Strip -->
-        <div class="px-4 py-1.5 flex items-center justify-between text-[11px] font-mono text-textMuted bg-surface/50 border-b border-borderSubtle">
-          <div class="flex items-center gap-3">
-            <span class="flex items-center gap-1.5">
-              <span class="pulse-online"></span>
-              <span id="header-pipeline-mode">Hybrid Funnel</span>
-            </span>
-            <span>•</span>
-            <span>Latency: <strong id="header-latency" class="text-textPrimary">-- ms</strong></span>
-            <span>•</span>
-            <span>Candidates: <strong id="header-retrieved" class="text-textPrimary">--</strong></span>
-          </div>
-          <button onclick="openSettingsDrawer()" class="hover:text-textPrimary transition flex items-center gap-1">
-            <span>⚙️ Sliders</span>
-          </button>
         </div>
 
         <!-- Cold-Start Active Notice (Subtle, sleek) -->
         <div id="cold-start-banner" class="hidden px-4 py-2 bg-surface text-xs text-textSecondary border-b border-borderSubtle flex items-center justify-between">
           <div class="flex items-center gap-2">
             <span class="text-sm">🌱</span>
-            <span><strong>Cold-Start Routing Active:</strong> User has &lt;3 interactions. Recommending via Knowledge rules &amp; Content matching.</span>
+            <span><strong>Cold-Start Routing Active:</strong> Fresh account with &lt;3 interactions. Routing via Knowledge tags &amp; Content matching.</span>
           </div>
-          <span class="badge-clean text-[10px]">Lecture L32</span>
         </div>
 
         <!-- Active Filter or Search Banner -->
@@ -228,11 +214,11 @@
     </main>
 
     <!-- ======================================================= -->
-    <!-- RIGHT SIDEBAR: Search, Campus Trends & Who To Follow (330px) -->
+    <!-- RIGHT SIDEBAR: Search, Campus Trends & Telemetry (330px) -->
     <!-- ======================================================= -->
     <aside class="hidden lg:block w-80 xl:w-96 pl-6 py-4 space-y-4">
       
-      <!-- Search Input (Case-Based Search L29) -->
+      <!-- Search Input (Case-Based Search) -->
       <div class="sticky top-4 space-y-4">
         
         <!-- Search Box -->
@@ -308,11 +294,25 @@
           </div>
         </div>
 
-        <!-- Quick Telemetry & Settings Card -->
+        <!-- Live Pipeline Telemetry Card (Moved from timeline header to directly above Recommender Control per user request) -->
+        <div class="bg-surface rounded-2xl border border-borderSubtle p-3.5 space-y-2 text-xs">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="pulse-online"></span>
+              <span id="header-pipeline-mode" class="font-bold text-textPrimary">Hybrid Heavy Ranker</span>
+            </div>
+            <button onclick="openSettingsDrawer()" class="text-[11px] font-mono text-textMuted hover:text-textPrimary transition">⚙️ Sliders</button>
+          </div>
+          <div class="flex items-center justify-between font-mono text-[11px] text-textSecondary pt-0.5">
+            <span>Latency: <strong id="header-latency" class="text-textPrimary">-- ms</strong></span>
+            <span>Candidates: <strong id="header-retrieved" class="text-textPrimary">--</strong></span>
+          </div>
+        </div>
+
+        <!-- Recommender Control Card (Cleaned: removed unnecessary FastAPI+iALS badge) -->
         <div class="bg-surface rounded-2xl border border-borderSubtle p-4 space-y-3 text-xs">
           <div class="flex items-center justify-between">
             <span class="font-bold text-textPrimary">Recommender Control</span>
-            <span class="badge-clean text-[10px]">FastAPI + iALS</span>
           </div>
           
           <div class="text-[11px] text-textSecondary space-y-1">
@@ -337,11 +337,6 @@
           </div>
         </div>
 
-        <!-- Footer Meta -->
-        <p class="text-[10px] text-textMuted px-2 leading-relaxed">
-          AIM3143 Recommender System Mini-Project • Inspired by xai-org/x-algorithm • Monolithic, Parallel &amp; Cascade Hybrids
-        </p>
-
       </div>
     </aside>
 
@@ -358,7 +353,7 @@
     <div class="px-5 py-4 border-b border-borderSubtle flex items-center justify-between bg-surfaceElevated shrink-0">
       <div class="flex items-center gap-2">
         <h2 class="font-bold text-base text-textPrimary">Recommender Settings &amp; Sandbox</h2>
-        <span class="badge-clean text-[10px]">Mini-X Control</span>
+        <span class="badge-clean text-[10px]">Varsity Control</span>
       </div>
       <button onclick="closeSettingsDrawer()" class="w-8 h-8 rounded-full flex items-center justify-center hover:bg-surfaceHover text-textMuted hover:text-textPrimary transition">
         ✕
@@ -425,7 +420,7 @@
             <span id="slider-val-reply" class="font-mono font-bold text-textPrimary">1.20</span>
           </div>
           <input type="range" id="slider-reply" min="0" max="3" step="0.1" value="1.20" oninput="handleSliderChange()">
-          <p class="text-[10px] text-textMuted">Favors discussion and replies (high value like X algorithm)</p>
+          <p class="text-[10px] text-textMuted">Favors discussion and replies</p>
         </div>
 
         <!-- P(Skip) Penalty Slider -->
@@ -456,7 +451,7 @@
       <div id="drawer-section-sandbox" class="hidden space-y-5">
         <div class="pb-2 border-b border-borderSubtle">
           <h3 class="font-bold text-sm text-textPrimary">Shilling Attack Simulation &amp; Defense</h3>
-          <p class="text-[11px] text-textMuted">Simulate fake bot accounts manipulating collaborative signals (Lecture L19, L20)</p>
+          <p class="text-[11px] text-textMuted">Simulate fake bot accounts manipulating collaborative signals</p>
         </div>
 
         <!-- Target Post Card -->
@@ -666,7 +661,7 @@
       <div class="flex items-center justify-between border-b border-borderSubtle pb-3 shrink-0">
         <div>
           <h2 class="font-bold text-base text-textPrimary">Evaluation Benchmarks &amp; Ablation Suite</h2>
-          <p class="text-xs text-textMuted">Lecture L21, L34, L35 • Offline evaluation across 8 models &amp; 6 ablations</p>
+          <p class="text-xs text-textMuted">Offline evaluation across 8 models &amp; 6 ablations</p>
         </div>
         <button onclick="closeBenchmarkModal()" class="w-8 h-8 rounded-full flex items-center justify-center hover:bg-surfaceHover text-textMuted hover:text-textPrimary">✕</button>
       </div>
@@ -688,7 +683,7 @@
                   <th class="p-2.5">RMSE</th>
                 </tr>
               </thead>
-              <tbody id="benchmark-table-body" class="divide-y divide-borderSubtle">
+              <tbody id="benchmark-table-body" class="divide-y border-borderSubtle">
                 <!-- Injected via app.js -->
               </tbody>
             </table>
@@ -710,7 +705,7 @@
                   <th class="p-2.5">ILD</th>
                 </tr>
               </thead>
-              <tbody id="cold-benchmark-table-body" class="divide-y divide-borderSubtle">
+              <tbody id="cold-benchmark-table-body" class="divide-y border-borderSubtle">
                 <!-- Injected via app.js -->
               </tbody>
             </table>
@@ -731,7 +726,7 @@
                   <th class="p-2.5">ILD</th>
                 </tr>
               </thead>
-              <tbody id="ablation-table-body" class="divide-y divide-borderSubtle">
+              <tbody id="ablation-table-body" class="divide-y border-borderSubtle">
                 <!-- Injected via app.js -->
               </tbody>
             </table>
