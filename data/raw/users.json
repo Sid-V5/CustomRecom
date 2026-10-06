@@ -1,0 +1,10122 @@
+[
+  {
+    "user_id": 0,
+    "username": "riley_patel0",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#lablife",
+      "#research",
+      "#crispr",
+      "#genomics",
+      "#biochem",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      171,
+      4,
+      9,
+      251,
+      326,
+      97,
+      218,
+      8,
+      10,
+      2,
+      352,
+      355,
+      188,
+      11,
+      1,
+      135,
+      357,
+      3,
+      379
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 1,
+    "username": "chris_gupta1",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#freshman",
+      "#advice",
+      "#housing",
+      "#clubs",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      4,
+      81,
+      5,
+      7,
+      97,
+      11,
+      2
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 2,
+    "username": "ta_jordan_2",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#cs",
+      "#study",
+      "#grading"
+    ],
+    "followed_user_ids": [
+      315,
+      7,
+      314,
+      6,
+      9,
+      296,
+      11,
+      187,
+      1,
+      266,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 3,
+    "username": "BioSoc_3",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#clubs",
+      "#social",
+      "#music"
+    ],
+    "followed_user_ids": [
+      303,
+      217,
+      173,
+      6,
+      284,
+      238,
+      9,
+      8,
+      11,
+      20,
+      355,
+      1,
+      4,
+      125
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 4,
+    "username": "jamie_williams4",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#cs",
+      "#internships",
+      "#webdev"
+    ],
+    "followed_user_ids": [
+      119,
+      374,
+      10,
+      0,
+      1,
+      321,
+      3,
+      269,
+      7,
+      393,
+      6,
+      117,
+      9,
+      316,
+      8
+    ],
+    "blocked_user_ids": [
+      105
+    ]
+  },
+  {
+    "user_id": 5,
+    "username": "arjun_rao5",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#systems",
+      "#internships",
+      "#coding",
+      "#research"
+    ],
+    "followed_user_ids": [
+      204,
+      7,
+      393,
+      173,
+      294,
+      117,
+      9,
+      241,
+      8,
+      11,
+      164,
+      10,
+      0,
+      143,
+      2,
+      289,
+      4,
+      357,
+      6,
+      303,
+      381,
+      214
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 6,
+    "username": "chris_chen6",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#coding",
+      "#ai",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      48,
+      194,
+      7,
+      382,
+      9,
+      1,
+      122,
+      396,
+      386,
+      2,
+      355,
+      4,
+      3,
+      81,
+      346
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 7,
+    "username": "sofia_zhang7",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#freshman",
+      "#clubs",
+      "#study"
+    ],
+    "followed_user_ids": [
+      11,
+      2,
+      4,
+      389,
+      212,
+      6,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 8,
+    "username": "BioSoc_8",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#social",
+      "#events",
+      "#sports",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      87,
+      2,
+      289,
+      1,
+      4,
+      357,
+      190,
+      3,
+      258,
+      235,
+      212,
+      259
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 9,
+    "username": "ta_priya_9",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#exam",
+      "#study",
+      "#math",
+      "#grading",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      44,
+      11,
+      397,
+      1,
+      387,
+      134,
+      3,
+      258,
+      235,
+      5,
+      194,
+      393,
+      6,
+      359,
+      189,
+      87
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 10,
+    "username": "mia_brown10",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#webdev",
+      "#cs",
+      "#ai",
+      "#python"
+    ],
+    "followed_user_ids": [
+      361,
+      321,
+      13,
+      199,
+      269,
+      6,
+      381,
+      325,
+      9,
+      264,
+      87
+    ],
+    "blocked_user_ids": [
+      45
+    ]
+  },
+  {
+    "user_id": 11,
+    "username": "chloe_jones11",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#housing",
+      "#study",
+      "#research"
+    ],
+    "followed_user_ids": [
+      4,
+      3,
+      5,
+      7,
+      6,
+      240,
+      289
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 12,
+    "username": "chloe_ito12",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#study",
+      "#advice",
+      "#freshman"
+    ],
+    "followed_user_ids": [
+      378,
+      352,
+      146
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 13,
+    "username": "leo_jones13",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#coding",
+      "#internships",
+      "#hackathons",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      222,
+      2,
+      322,
+      387,
+      3,
+      124,
+      126,
+      393,
+      337,
+      10
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 14,
+    "username": "avery_park14",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#webdev",
+      "#cs",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      4,
+      344,
+      324,
+      399,
+      58,
+      381,
+      171,
+      305,
+      337,
+      9,
+      74,
+      352,
+      162,
+      144,
+      209,
+      398
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 15,
+    "username": "liam_rao15",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#internships",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      235,
+      48,
+      117,
+      231,
+      8,
+      384,
+      265
+    ],
+    "blocked_user_ids": [
+      71
+    ]
+  },
+  {
+    "user_id": 16,
+    "username": "zoe_jones16",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#systems",
+      "#webdev",
+      "#python",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      236,
+      347,
+      39,
+      9,
+      195,
+      141,
+      265,
+      209,
+      2,
+      234,
+      355,
+      311,
+      3,
+      212,
+      303,
+      280,
+      126
+    ],
+    "blocked_user_ids": [
+      255
+    ]
+  },
+  {
+    "user_id": 17,
+    "username": "kavita_wang17",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#academia",
+      "#research",
+      "#biochem",
+      "#biotech"
+    ],
+    "followed_user_ids": [
+      169,
+      9,
+      352,
+      119,
+      384,
+      361,
+      144,
+      255,
+      209,
+      146,
+      321
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 18,
+    "username": "mateo_park18",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#genomics",
+      "#biotech",
+      "#lablife"
+    ],
+    "followed_user_ids": [
+      259,
+      393,
+      108,
+      75,
+      9,
+      64,
+      41,
+      198,
+      119,
+      11,
+      199,
+      264,
+      377,
+      180,
+      278,
+      359,
+      5,
+      27
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 19,
+    "username": "daniel_rao19",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#python",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      18,
+      171,
+      9,
+      78,
+      37,
+      122,
+      13,
+      3,
+      6,
+      28
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 20,
+    "username": "ACM_StudentChapter_20",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#music",
+      "#campuslife",
+      "#events",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      81,
+      259,
+      337,
+      304,
+      361,
+      207,
+      331,
+      355,
+      289,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 21,
+    "username": "hassan_brown21",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#coding",
+      "#cs",
+      "#research"
+    ],
+    "followed_user_ids": [
+      20,
+      122,
+      180,
+      36,
+      301,
+      291,
+      3,
+      61,
+      171,
+      236
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 22,
+    "username": "sam_dubois22",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#ai",
+      "#systems",
+      "#internships",
+      "#webdev"
+    ],
+    "followed_user_ids": [
+      8,
+      163,
+      54,
+      76,
+      200,
+      193,
+      359
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 23,
+    "username": "oliver_lopez23",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#genomics",
+      "#crispr",
+      "#research"
+    ],
+    "followed_user_ids": [
+      98,
+      2,
+      9,
+      97,
+      41,
+      129
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 24,
+    "username": "chloe_tanaka24",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#lablife",
+      "#academia",
+      "#genomics",
+      "#crispr",
+      "#biotech",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      276,
+      232,
+      211,
+      322,
+      79,
+      357,
+      160,
+      235,
+      303,
+      194,
+      7,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 25,
+    "username": "ta_kavita_25",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#grading",
+      "#exam",
+      "#study",
+      "#cs",
+      "#homework",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      266,
+      256,
+      114,
+      235,
+      119,
+      45,
+      398
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 26,
+    "username": "mei_zhang26",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#cs",
+      "#coding",
+      "#research"
+    ],
+    "followed_user_ids": [
+      56,
+      10,
+      144,
+      388,
+      14,
+      135,
+      6,
+      359,
+      393,
+      20,
+      9,
+      352,
+      77,
+      198,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 27,
+    "username": "wei_chen27",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#genomics",
+      "#biochem"
+    ],
+    "followed_user_ids": [
+      97,
+      218,
+      78,
+      199,
+      68,
+      378,
+      24,
+      158,
+      316,
+      270,
+      18,
+      337,
+      229
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 28,
+    "username": "ChessClub_28",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#campuslife",
+      "#clubs",
+      "#music"
+    ],
+    "followed_user_ids": [
+      200,
+      3,
+      81,
+      214,
+      106,
+      52,
+      9,
+      352,
+      8,
+      164,
+      396,
+      252,
+      234
+    ],
+    "blocked_user_ids": [
+      291
+    ]
+  },
+  {
+    "user_id": 29,
+    "username": "noah_kim29",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#systems",
+      "#webdev",
+      "#python",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      143,
+      375,
+      221,
+      58,
+      303,
+      171,
+      107,
+      265
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 30,
+    "username": "RoboticsClub_30",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#social",
+      "#clubs",
+      "#fest"
+    ],
+    "followed_user_ids": [
+      3,
+      336,
+      303,
+      51,
+      368,
+      229,
+      52,
+      352,
+      8,
+      384,
+      11,
+      76
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 31,
+    "username": "liam_johnson31",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#ai",
+      "#cs",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      113,
+      355,
+      46,
+      157,
+      81,
+      359,
+      169,
+      328,
+      259,
+      196,
+      329,
+      122,
+      298,
+      131,
+      189
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 32,
+    "username": "mia_wang32",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#python",
+      "#ai",
+      "#research"
+    ],
+    "followed_user_ids": [
+      203,
+      379,
+      235,
+      126,
+      106,
+      361,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 33,
+    "username": "david_williams33",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#freshman",
+      "#campuslife",
+      "#clubs",
+      "#advice"
+    ],
+    "followed_user_ids": [
+      9,
+      242,
+      324
+    ],
+    "blocked_user_ids": [
+      6
+    ]
+  },
+  {
+    "user_id": 34,
+    "username": "mateo_moreau34",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#clubs",
+      "#housing",
+      "#freshman",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      209
+    ],
+    "blocked_user_ids": [
+      187
+    ]
+  },
+  {
+    "user_id": 35,
+    "username": "morgan_gupta35",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#freshman",
+      "#study",
+      "#advice",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      322,
+      359
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 36,
+    "username": "daniel_rossi36",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#cs",
+      "#coding",
+      "#webdev",
+      "#ai",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      304,
+      9,
+      87,
+      298,
+      58,
+      355,
+      213,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 37,
+    "username": "elena_hernandez37",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#coding",
+      "#webdev",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      8,
+      135,
+      333,
+      106,
+      347,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 38,
+    "username": "ta_noah_38",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#grading",
+      "#study",
+      "#officehours",
+      "#cs",
+      "#homework"
+    ],
+    "followed_user_ids": [
+      9,
+      241,
+      218,
+      208,
+      54,
+      152,
+      331,
+      265,
+      388,
+      289,
+      235,
+      303,
+      381,
+      106,
+      259,
+      193,
+      39
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 39,
+    "username": "amina_brown39",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#academia",
+      "#research",
+      "#lablife",
+      "#biochem"
+    ],
+    "followed_user_ids": [
+      238,
+      303,
+      9,
+      230,
+      287,
+      2,
+      378,
+      355,
+      368,
+      289,
+      158,
+      223
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 40,
+    "username": "sam_patel40",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#cs",
+      "#coding",
+      "#python"
+    ],
+    "followed_user_ids": [
+      8,
+      342,
+      355,
+      168,
+      377,
+      369,
+      393,
+      373,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 41,
+    "username": "avery_martinez41",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#lablife",
+      "#crispr",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      11,
+      210,
+      331,
+      200,
+      144,
+      113,
+      145,
+      1,
+      3,
+      235,
+      369,
+      48,
+      303,
+      214,
+      106,
+      27,
+      174
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 42,
+    "username": "hassan_rao42",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#systems",
+      "#coding",
+      "#hackathons",
+      "#python"
+    ],
+    "followed_user_ids": [
+      2,
+      122,
+      368,
+      261,
+      152,
+      240,
+      220
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 43,
+    "username": "avery_jones43",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#freshman",
+      "#housing",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      11
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 44,
+    "username": "oliver_williams44",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#ai",
+      "#python",
+      "#hackathons",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      6,
+      149,
+      194,
+      9,
+      384,
+      398
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 45,
+    "username": "CampusDaily_45",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#clubs",
+      "#sports",
+      "#campuslife",
+      "#fest"
+    ],
+    "followed_user_ids": [
+      24,
+      3,
+      359,
+      315,
+      238,
+      207,
+      20,
+      13
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 46,
+    "username": "avery_ito46",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#systems",
+      "#internships",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      4,
+      200,
+      169,
+      214,
+      315,
+      164,
+      144
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 47,
+    "username": "mia_patel47",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biotech",
+      "#crispr",
+      "#research"
+    ],
+    "followed_user_ids": [
+      126,
+      259,
+      151,
+      20,
+      382,
+      9,
+      220,
+      76,
+      354,
+      2
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 48,
+    "username": "hiroshi_gupta48",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#academia",
+      "#biochem",
+      "#biotech",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      2,
+      47,
+      69,
+      8,
+      328,
+      9,
+      41,
+      296,
+      273,
+      265
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 49,
+    "username": "taylor_martinez49",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#systems",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      337,
+      6,
+      261,
+      51,
+      352,
+      54,
+      8,
+      143,
+      2,
+      289,
+      81,
+      359,
+      257,
+      28
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 50,
+    "username": "mia_rossi50",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#campuslife",
+      "#advice",
+      "#freshman"
+    ],
+    "followed_user_ids": [
+      20,
+      2
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 51,
+    "username": "ta_rahul_51",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#exam",
+      "#cs",
+      "#officehours"
+    ],
+    "followed_user_ids": [
+      235,
+      166,
+      58,
+      136,
+      158,
+      236,
+      337,
+      174,
+      373,
+      98,
+      52,
+      9,
+      264,
+      230,
+      76
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 52,
+    "username": "noah_moreau52",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#advice",
+      "#campuslife",
+      "#study",
+      "#freshman",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      383,
+      9,
+      309
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 53,
+    "username": "taylor_rossi53",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#advice",
+      "#clubs",
+      "#housing"
+    ],
+    "followed_user_ids": [
+      194,
+      355
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 54,
+    "username": "RoboticsClub_54",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#social",
+      "#music",
+      "#sports",
+      "#fest",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      218,
+      74,
+      352,
+      8,
+      361,
+      264,
+      2,
+      70,
+      170,
+      359,
+      214,
+      393,
+      337,
+      52,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 55,
+    "username": "lucas_martinez55",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#clubs",
+      "#study",
+      "#freshman",
+      "#advice"
+    ],
+    "followed_user_ids": [
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 56,
+    "username": "mateo_johnson56",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#cs",
+      "#webdev",
+      "#python",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      11,
+      230,
+      2,
+      355,
+      211,
+      70,
+      256,
+      359,
+      28,
+      259,
+      337,
+      229,
+      9,
+      218
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 57,
+    "username": "amina_lopez57",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#internships",
+      "#coding",
+      "#python",
+      "#hackathons",
+      "#research"
+    ],
+    "followed_user_ids": [
+      230,
+      298,
+      10,
+      131,
+      366,
+      199,
+      3,
+      6,
+      149
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 58,
+    "username": "alex_park58",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#hackathons",
+      "#python",
+      "#cs",
+      "#webdev"
+    ],
+    "followed_user_ids": [
+      175,
+      296,
+      76,
+      289,
+      135,
+      377,
+      81,
+      117,
+      51,
+      214,
+      259,
+      30
+    ],
+    "blocked_user_ids": [
+      278
+    ]
+  },
+  {
+    "user_id": 59,
+    "username": "riley_schmidt59",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#systems",
+      "#internships",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      189,
+      309,
+      200,
+      3,
+      225,
+      290,
+      61,
+      229,
+      6,
+      8,
+      98
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 60,
+    "username": "sofia_chen60",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#academia",
+      "#crispr"
+    ],
+    "followed_user_ids": [
+      9,
+      230,
+      278,
+      169,
+      113,
+      355,
+      214,
+      69,
+      337,
+      382,
+      326,
+      51,
+      162,
+      8,
+      361,
+      282,
+      20
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 61,
+    "username": "rahul_rao61",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#internships",
+      "#python",
+      "#cs",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      37,
+      269,
+      291,
+      3,
+      258,
+      379,
+      393,
+      327,
+      349,
+      185,
+      54
+    ],
+    "blocked_user_ids": [
+      337
+    ]
+  },
+  {
+    "user_id": 62,
+    "username": "liam_moreau62",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#study",
+      "#clubs",
+      "#campuslife",
+      "#advice"
+    ],
+    "followed_user_ids": [
+      373,
+      285
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 63,
+    "username": "daniel_lee63",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#crispr",
+      "#biotech",
+      "#lablife",
+      "#academia"
+    ],
+    "followed_user_ids": [
+      391,
+      18,
+      381,
+      9,
+      349,
+      87,
+      286,
+      361,
+      340,
+      78,
+      45,
+      188,
+      354,
+      223,
+      3,
+      235,
+      369
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 64,
+    "username": "ava_rodriguez64",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#systems",
+      "#hackathons",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      290,
+      322,
+      4,
+      105,
+      6,
+      239,
+      87,
+      278,
+      209
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 65,
+    "username": "jamie_patel65",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#academia",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      399,
+      212,
+      2,
+      355,
+      322,
+      357,
+      379,
+      238,
+      46
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 66,
+    "username": "sam_kim66",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#systems",
+      "#webdev",
+      "#python"
+    ],
+    "followed_user_ids": [
+      184,
+      144,
+      111,
+      355,
+      311,
+      238
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 67,
+    "username": "elena_smith67",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#advice",
+      "#freshman",
+      "#housing",
+      "#campuslife",
+      "#clubs",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      393
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 68,
+    "username": "maya_sharma68",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#webdev",
+      "#cs",
+      "#python",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      8,
+      152,
+      155,
+      298,
+      312,
+      117,
+      51
+    ],
+    "blocked_user_ids": [
+      119
+    ]
+  },
+  {
+    "user_id": 69,
+    "username": "zoe_chen69",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#clubs",
+      "#housing",
+      "#advice",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      74,
+      44,
+      76
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 70,
+    "username": "ta_david_70",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#study",
+      "#exam",
+      "#officehours",
+      "#math"
+    ],
+    "followed_user_ids": [
+      361,
+      331,
+      164,
+      20,
+      398,
+      2,
+      279,
+      170,
+      389,
+      137,
+      7
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 71,
+    "username": "lucas_kim71",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#ai",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      41,
+      319,
+      11,
+      20,
+      199,
+      398,
+      355,
+      387,
+      14,
+      112,
+      4,
+      46,
+      258,
+      379,
+      235,
+      381,
+      173
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 72,
+    "username": "leo_zhang72",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#ai",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      9,
+      143,
+      375,
+      308,
+      13,
+      398,
+      279
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 73,
+    "username": "wei_zhang73",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#study",
+      "#advice",
+      "#campuslife",
+      "#research"
+    ],
+    "followed_user_ids": [
+      35,
+      214,
+      337
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 74,
+    "username": "ta_yuki_74",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#cs",
+      "#homework",
+      "#grading",
+      "#math",
+      "#exam",
+      "#events"
+    ],
+    "followed_user_ids": [
+      9,
+      54,
+      235,
+      238,
+      8,
+      361,
+      373
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 75,
+    "username": "ta_hassan_75",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#study",
+      "#math",
+      "#grading",
+      "#exam"
+    ],
+    "followed_user_ids": [
+      359,
+      7,
+      393,
+      337,
+      276,
+      230
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 76,
+    "username": "ta_lucas_76",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#homework",
+      "#math",
+      "#officehours",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      308,
+      144,
+      25,
+      214,
+      289,
+      170,
+      6,
+      51
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 77,
+    "username": "maya_smith77",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#internships",
+      "#coding",
+      "#systems",
+      "#python",
+      "#research"
+    ],
+    "followed_user_ids": [
+      218,
+      339,
+      64,
+      185,
+      230,
+      353,
+      113,
+      269,
+      6,
+      194
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 78,
+    "username": "avery_rossi78",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#biotech",
+      "#lablife",
+      "#academia"
+    ],
+    "followed_user_ids": [
+      2,
+      355,
+      103,
+      312,
+      289,
+      344,
+      357,
+      36,
+      268,
+      248,
+      303,
+      280,
+      293,
+      350,
+      9,
+      352,
+      331,
+      10
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 79,
+    "username": "maya_rodriguez79",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#hackathons",
+      "#internships",
+      "#python"
+    ],
+    "followed_user_ids": [
+      386,
+      199,
+      212,
+      58,
+      2,
+      322,
+      213,
+      311,
+      347,
+      238,
+      8,
+      393,
+      249,
+      252,
+      337,
+      109,
+      76
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 80,
+    "username": "david_patel80",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#freshman",
+      "#study",
+      "#advice",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      258,
+      379
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 81,
+    "username": "RoboticsClub_81",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#social",
+      "#campuslife",
+      "#fest",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      287,
+      368,
+      238,
+      303,
+      126,
+      8,
+      87,
+      298,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 82,
+    "username": "david_tanaka82",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#python",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      305,
+      393,
+      9,
+      2,
+      388,
+      355,
+      311,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 83,
+    "username": "hiroshi_johnson83",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#webdev",
+      "#python",
+      "#hackathons",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      6,
+      162,
+      194,
+      171,
+      97,
+      41,
+      318,
+      285,
+      10,
+      278,
+      399,
+      330,
+      2,
+      70,
+      170
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 84,
+    "username": "hassan_gupta84",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#internships",
+      "#systems",
+      "#ai",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      381,
+      382,
+      9,
+      263,
+      164,
+      278,
+      70
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 85,
+    "username": "elena_wang85",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#webdev",
+      "#systems",
+      "#python",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      126,
+      361,
+      393,
+      261,
+      152,
+      46,
+      144,
+      355,
+      70,
+      158,
+      36,
+      3,
+      258
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 86,
+    "username": "ta_ethan_86",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#officehours",
+      "#grading",
+      "#math"
+    ],
+    "followed_user_ids": [
+      361,
+      393,
+      9,
+      331,
+      308,
+      200,
+      355
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 87,
+    "username": "CampusDaily_87",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#campuslife",
+      "#music",
+      "#events",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      349,
+      8,
+      273,
+      361,
+      298,
+      265,
+      212,
+      68,
+      193,
+      3,
+      229
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 88,
+    "username": "hiroshi_ito88",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#advice",
+      "#campuslife",
+      "#clubs",
+      "#freshman"
+    ],
+    "followed_user_ids": [
+      3,
+      235
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 89,
+    "username": "lucas_rao89",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#academia",
+      "#crispr",
+      "#genomics",
+      "#lablife"
+    ],
+    "followed_user_ids": [
+      188,
+      146,
+      2,
+      70,
+      5,
+      337,
+      87
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 90,
+    "username": "amina_rossi90",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#hackathons",
+      "#internships",
+      "#research"
+    ],
+    "followed_user_ids": [
+      9,
+      218,
+      286,
+      76,
+      199,
+      189,
+      2,
+      355,
+      322,
+      289,
+      190,
+      3,
+      235,
+      238,
+      8,
+      394,
+      98,
+      52
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 91,
+    "username": "ta_ethan_91",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#math",
+      "#officehours",
+      "#homework",
+      "#study",
+      "#exam",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      9,
+      107,
+      11,
+      266,
+      265,
+      157,
+      3,
+      2,
+      388,
+      301,
+      337,
+      291,
+      235,
+      6,
+      8,
+      217,
+      30
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 92,
+    "username": "ta_arjun_92",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#officehours",
+      "#study",
+      "#grading",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      301,
+      3,
+      94,
+      303,
+      337,
+      361
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 93,
+    "username": "zoe_williams93",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#crispr",
+      "#academia"
+    ],
+    "followed_user_ids": [
+      52,
+      9,
+      185,
+      265,
+      3,
+      224,
+      216,
+      6,
+      359,
+      303,
+      338
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 94,
+    "username": "ta_elena_94",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#cs",
+      "#study",
+      "#math",
+      "#grading"
+    ],
+    "followed_user_ids": [
+      2,
+      214,
+      289,
+      3,
+      304,
+      235,
+      361,
+      30,
+      393,
+      337,
+      75,
+      9,
+      276,
+      23,
+      278,
+      399,
+      91
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 95,
+    "username": "chris_garcia95",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#academia",
+      "#crispr",
+      "#research"
+    ],
+    "followed_user_ids": [
+      398,
+      169,
+      355,
+      193,
+      170,
+      3,
+      235,
+      303,
+      126,
+      107,
+      308
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 96,
+    "username": "hannah_martinez96",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#genomics",
+      "#biochem",
+      "#lablife",
+      "#academia"
+    ],
+    "followed_user_ids": [
+      200,
+      169,
+      355,
+      303,
+      74,
+      361
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 97,
+    "username": "mia_rodriguez97",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#academia",
+      "#lablife",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      259,
+      301,
+      238,
+      303,
+      18,
+      361,
+      30,
+      9,
+      362,
+      265
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 98,
+    "username": "riley_schmidt98",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#cs",
+      "#python"
+    ],
+    "followed_user_ids": [
+      199,
+      355,
+      14,
+      171,
+      203,
+      51,
+      393,
+      54
+    ],
+    "blocked_user_ids": [
+      208
+    ]
+  },
+  {
+    "user_id": 99,
+    "username": "rahul_williams99",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#hackathons",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      51,
+      393,
+      173,
+      9,
+      97,
+      122,
+      10,
+      144,
+      265,
+      320,
+      58,
+      4,
+      235
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 100,
+    "username": "zoe_rao0",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#webdev",
+      "#python",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      3,
+      346,
+      238,
+      303,
+      106,
+      339,
+      208,
+      54,
+      165,
+      266,
+      10,
+      189,
+      355,
+      289
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 101,
+    "username": "CampusDaily_101",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#social",
+      "#sports",
+      "#campuslife",
+      "#fest",
+      "#events"
+    ],
+    "followed_user_ids": [
+      8,
+      361,
+      20,
+      229,
+      218,
+      87,
+      396,
+      3,
+      199,
+      45,
+      2,
+      355,
+      390,
+      238,
+      61
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 102,
+    "username": "avery_ito2",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#webdev",
+      "#cs",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      258,
+      273,
+      194,
+      7,
+      272,
+      393,
+      206,
+      173,
+      9,
+      44,
+      384,
+      3,
+      267,
+      355,
+      289,
+      27,
+      82,
+      170
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 103,
+    "username": "david_kim3",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#biotech",
+      "#lablife",
+      "#academia",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      258,
+      382,
+      209,
+      352,
+      355,
+      289
+    ],
+    "blocked_user_ids": [
+      114
+    ]
+  },
+  {
+    "user_id": 104,
+    "username": "chloe_lee4",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#freshman",
+      "#campuslife",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      235
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 105,
+    "username": "hassan_zhang5",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#coding",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      393,
+      284,
+      276,
+      265,
+      399,
+      146,
+      378,
+      37,
+      357,
+      170,
+      3,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 106,
+    "username": "ava_brown6",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#academia",
+      "#biochem",
+      "#crispr",
+      "#lablife",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      97,
+      344,
+      321,
+      156,
+      2,
+      357,
+      337,
+      235,
+      280,
+      162,
+      96,
+      305,
+      229,
+      330,
+      176,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 107,
+    "username": "ta_hassan_107",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#homework",
+      "#grading",
+      "#study",
+      "#exam",
+      "#officehours",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      296,
+      199,
+      48,
+      169,
+      37,
+      149,
+      161
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 108,
+    "username": "priya_brown8",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#python",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      143,
+      2,
+      355,
+      269,
+      236,
+      193,
+      5,
+      184,
+      242,
+      209
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 109,
+    "username": "oliver_lee9",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#ai",
+      "#hackathons",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      144,
+      232,
+      312,
+      112,
+      213,
+      238,
+      152
+    ],
+    "blocked_user_ids": [
+      33
+    ]
+  },
+  {
+    "user_id": 110,
+    "username": "maya_zhang10",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#hackathons",
+      "#systems",
+      "#coding",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      375,
+      54,
+      25,
+      2,
+      337,
+      294,
+      261,
+      384,
+      361
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 111,
+    "username": "leo_brown11",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#python",
+      "#ai",
+      "#cs",
+      "#coding",
+      "#events"
+    ],
+    "followed_user_ids": [
+      58,
+      214,
+      379,
+      238,
+      94,
+      336,
+      8,
+      194,
+      294,
+      87,
+      122,
+      76,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 112,
+    "username": "oliver_schmidt12",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#clubs",
+      "#freshman",
+      "#campuslife",
+      "#advice"
+    ],
+    "followed_user_ids": [
+      166
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 113,
+    "username": "lucas_park13",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#advice",
+      "#freshman",
+      "#study",
+      "#housing"
+    ],
+    "followed_user_ids": [
+      8,
+      11
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 114,
+    "username": "BioSoc_114",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#campuslife",
+      "#social",
+      "#fest"
+    ],
+    "followed_user_ids": [
+      3,
+      212,
+      234,
+      224,
+      291,
+      258,
+      382,
+      238,
+      303,
+      381,
+      8,
+      272,
+      10,
+      352,
+      54
+    ],
+    "blocked_user_ids": [
+      294
+    ]
+  },
+  {
+    "user_id": 115,
+    "username": "jordan_dubois15",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#housing",
+      "#freshman",
+      "#clubs",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      346,
+      359
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 116,
+    "username": "emma_jones16",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#clubs",
+      "#advice"
+    ],
+    "followed_user_ids": [
+      30,
+      44
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 117,
+    "username": "david_martinez17",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#hackathons",
+      "#python",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      269,
+      160,
+      238,
+      51,
+      8,
+      361,
+      352,
+      342,
+      122,
+      166,
+      322,
+      70
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 118,
+    "username": "kavita_lopez18",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#study",
+      "#advice",
+      "#housing",
+      "#freshman"
+    ],
+    "followed_user_ids": [
+      258
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 119,
+    "username": "amina_jones19",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biotech",
+      "#academia",
+      "#genomics",
+      "#biochem"
+    ],
+    "followed_user_ids": [
+      304,
+      238,
+      41,
+      8,
+      11,
+      189,
+      2,
+      355
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 120,
+    "username": "leo_kim20",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#freshman",
+      "#campuslife",
+      "#study",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      265,
+      250
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 121,
+    "username": "emma_dubois21",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#study",
+      "#advice"
+    ],
+    "followed_user_ids": [
+      230
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 122,
+    "username": "emma_muller22",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#cs",
+      "#systems",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      238,
+      149,
+      296,
+      8,
+      285,
+      396,
+      9,
+      398,
+      200,
+      298,
+      288,
+      235,
+      48,
+      169,
+      158
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 123,
+    "username": "priya_garcia23",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#coding",
+      "#internships",
+      "#python",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      209,
+      22,
+      122,
+      46,
+      4,
+      6,
+      359,
+      71,
+      5,
+      98
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 124,
+    "username": "riley_kim24",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#internships",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      98,
+      264,
+      266,
+      331,
+      298,
+      222,
+      398,
+      214,
+      269,
+      357,
+      213,
+      49,
+      185,
+      106
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 125,
+    "username": "lucas_lopez25",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#academia",
+      "#research",
+      "#biochem",
+      "#crispr"
+    ],
+    "followed_user_ids": [
+      388,
+      224,
+      289,
+      3,
+      235,
+      28,
+      18
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 126,
+    "username": "oliver_park26",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#freshman",
+      "#study",
+      "#advice",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 127,
+    "username": "daniel_jones27",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#advice",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      191,
+      312,
+      114
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 128,
+    "username": "emma_chen28",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#hackathons",
+      "#coding",
+      "#python"
+    ],
+    "followed_user_ids": [
+      398,
+      211,
+      214,
+      6,
+      248,
+      51,
+      306,
+      152,
+      10,
+      330,
+      9,
+      375,
+      352,
+      266
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 129,
+    "username": "amina_rossi29",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#research",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      298,
+      3,
+      212,
+      398,
+      159,
+      244,
+      355,
+      214,
+      125,
+      370,
+      347,
+      381,
+      8,
+      328,
+      65,
+      231,
+      87,
+      188
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 130,
+    "username": "noah_sharma30",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#academia",
+      "#biochem",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      357,
+      379,
+      8,
+      343,
+      35,
+      146
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 131,
+    "username": "jamie_lee31",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#coding",
+      "#webdev"
+    ],
+    "followed_user_ids": [
+      157,
+      13,
+      343,
+      355,
+      312,
+      259,
+      337,
+      6,
+      117,
+      238,
+      328,
+      30,
+      393,
+      199,
+      9,
+      287,
+      87,
+      374
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 132,
+    "username": "casey_rossi32",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#coding",
+      "#internships",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      206,
+      9,
+      218,
+      87,
+      152,
+      199,
+      2,
+      388,
+      135,
+      4,
+      390,
+      203,
+      170
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 133,
+    "username": "noah_rossi33",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#cs",
+      "#internships",
+      "#python",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      4,
+      259,
+      39,
+      8,
+      240,
+      393,
+      9,
+      264,
+      185,
+      286,
+      3,
+      398,
+      322
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 134,
+    "username": "chloe_ito34",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#housing",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      9,
+      51,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 135,
+    "username": "sarah_rossi35",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#coding",
+      "#python",
+      "#ai",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      238,
+      8,
+      250,
+      83,
+      207,
+      285,
+      87,
+      399,
+      212,
+      169,
+      4,
+      337
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 136,
+    "username": "chris_lopez36",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#crispr",
+      "#biotech"
+    ],
+    "followed_user_ids": [
+      359,
+      9,
+      188,
+      134,
+      169,
+      25
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 137,
+    "username": "ta_hassan_137",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#officehours",
+      "#homework",
+      "#study"
+    ],
+    "followed_user_ids": [
+      9,
+      352,
+      54,
+      331,
+      308,
+      2,
+      211,
+      324,
+      170
+    ],
+    "blocked_user_ids": [
+      399
+    ]
+  },
+  {
+    "user_id": 138,
+    "username": "liam_smith38",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#genomics",
+      "#academia",
+      "#biochem"
+    ],
+    "followed_user_ids": [
+      393,
+      229,
+      206,
+      220,
+      2,
+      390,
+      337,
+      38,
+      51,
+      8
+    ],
+    "blocked_user_ids": [
+      242
+    ]
+  },
+  {
+    "user_id": 139,
+    "username": "rahul_johnson39",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#freshman",
+      "#housing",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      355,
+      193,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 140,
+    "username": "elena_lee40",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#advice",
+      "#clubs",
+      "#study",
+      "#housing"
+    ],
+    "followed_user_ids": [
+      9,
+      204,
+      94
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 141,
+    "username": "alex_moreau41",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#systems",
+      "#python",
+      "#ai",
+      "#events"
+    ],
+    "followed_user_ids": [
+      184,
+      143,
+      386,
+      323,
+      193,
+      359,
+      303,
+      149
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 142,
+    "username": "hannah_garcia42",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#academia",
+      "#crispr",
+      "#lablife",
+      "#biochem",
+      "#research"
+    ],
+    "followed_user_ids": [
+      331,
+      177,
+      265,
+      3,
+      91,
+      257,
+      214,
+      289,
+      303,
+      361,
+      194,
+      10,
+      360,
+      352,
+      54,
+      276
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 143,
+    "username": "david_wang43",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#coding",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      209,
+      276,
+      122,
+      387,
+      321,
+      278,
+      3,
+      81,
+      2,
+      303,
+      5,
+      294,
+      6,
+      117
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 144,
+    "username": "sofia_patel44",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#hackathons",
+      "#cs",
+      "#coding",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      81,
+      146,
+      2,
+      312,
+      269,
+      6,
+      238,
+      61,
+      316,
+      18,
+      8,
+      30,
+      393,
+      252,
+      11,
+      266,
+      321
+    ],
+    "blocked_user_ids": [
+      112
+    ]
+  },
+  {
+    "user_id": 145,
+    "username": "sarah_novak45",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#coding",
+      "#hackathons",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      377,
+      331,
+      79,
+      265,
+      3,
+      146,
+      234,
+      213,
+      337,
+      238,
+      303,
+      393,
+      108,
+      9,
+      44
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 146,
+    "username": "CampusDaily_146",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#clubs",
+      "#events",
+      "#social",
+      "#campuslife",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      193,
+      258,
+      359,
+      61,
+      8,
+      361,
+      20,
+      373,
+      352,
+      76,
+      298,
+      278,
+      45,
+      355
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 147,
+    "username": "hassan_moreau47",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biotech",
+      "#genomics",
+      "#lablife",
+      "#research",
+      "#events"
+    ],
+    "followed_user_ids": [
+      326,
+      303,
+      18,
+      194,
+      229,
+      352,
+      276,
+      397
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 148,
+    "username": "amina_schmidt48",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#ai",
+      "#webdev",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      298,
+      3,
+      235,
+      81,
+      303,
+      37,
+      216,
+      337,
+      206,
+      381,
+      207,
+      10,
+      229,
+      9,
+      352
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 149,
+    "username": "hiroshi_park49",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#webdev",
+      "#ai",
+      "#hackathons",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      303,
+      8,
+      30,
+      284,
+      9,
+      241,
+      54,
+      332,
+      223,
+      298,
+      311,
+      157,
+      189,
+      398,
+      2,
+      355,
+      259
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 150,
+    "username": "sofia_schmidt50",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#freshman",
+      "#clubs",
+      "#advice",
+      "#housing"
+    ],
+    "followed_user_ids": [
+      14,
+      330,
+      122
+    ],
+    "blocked_user_ids": [
+      359
+    ]
+  },
+  {
+    "user_id": 151,
+    "username": "mei_rossi51",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#python",
+      "#coding",
+      "#hackathons",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      303,
+      28,
+      98,
+      9,
+      87,
+      387,
+      311,
+      3,
+      222,
+      2,
+      135
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 152,
+    "username": "alex_jones52",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#internships",
+      "#hackathons",
+      "#systems",
+      "#webdev"
+    ],
+    "followed_user_ids": [
+      357,
+      359,
+      162,
+      8,
+      250,
+      178,
+      289,
+      122,
+      331,
+      298,
+      134,
+      399,
+      235,
+      146,
+      2
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 153,
+    "username": "hiroshi_wang53",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#academia",
+      "#biotech",
+      "#lablife",
+      "#crispr",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      287,
+      253,
+      76,
+      344,
+      3,
+      235,
+      267,
+      238,
+      204
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 154,
+    "username": "maya_muller54",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#advice",
+      "#clubs",
+      "#freshman",
+      "#housing",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      212,
+      349
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 155,
+    "username": "hassan_lee55",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#python",
+      "#coding",
+      "#research"
+    ],
+    "followed_user_ids": [
+      211,
+      3,
+      322,
+      289,
+      6,
+      107,
+      326,
+      172
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 156,
+    "username": "ta_hiroshi_156",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#cs",
+      "#grading",
+      "#math",
+      "#exam",
+      "#study"
+    ],
+    "followed_user_ids": [
+      9,
+      92,
+      193,
+      258,
+      6,
+      30,
+      308
+    ],
+    "blocked_user_ids": [
+      309
+    ]
+  },
+  {
+    "user_id": 157,
+    "username": "ta_sarah_157",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#officehours",
+      "#homework",
+      "#study",
+      "#exam"
+    ],
+    "followed_user_ids": [
+      184,
+      9,
+      266,
+      399,
+      388,
+      355,
+      269,
+      337,
+      170
+    ],
+    "blocked_user_ids": [
+      245
+    ]
+  },
+  {
+    "user_id": 158,
+    "username": "elena_rossi58",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#systems",
+      "#hackathons",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      232,
+      235,
+      107,
+      18,
+      129,
+      145
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 159,
+    "username": "ta_arjun_159",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#officehours",
+      "#exam",
+      "#homework",
+      "#math",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      76,
+      200,
+      212,
+      2,
+      355,
+      224,
+      70,
+      191,
+      337,
+      38,
+      361,
+      393,
+      9,
+      352,
+      54
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 160,
+    "username": "oliver_patel60",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#lablife",
+      "#research"
+    ],
+    "followed_user_ids": [
+      212,
+      322,
+      258,
+      6,
+      303,
+      185,
+      9,
+      13
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 161,
+    "username": "RoboticsClub_161",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#social",
+      "#fest",
+      "#clubs",
+      "#events",
+      "#music"
+    ],
+    "followed_user_ids": [
+      3,
+      322,
+      289,
+      325,
+      382,
+      359,
+      51,
+      76,
+      87,
+      54
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 162,
+    "username": "BioSoc_162",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#social",
+      "#fest",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      122,
+      200,
+      265,
+      3,
+      379,
+      212,
+      388,
+      335,
+      183,
+      359,
+      303,
+      8,
+      229
+    ],
+    "blocked_user_ids": [
+      75
+    ]
+  },
+  {
+    "user_id": 163,
+    "username": "riley_tanaka63",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#biotech",
+      "#lablife"
+    ],
+    "followed_user_ids": [
+      170,
+      258,
+      61,
+      303,
+      8,
+      119,
+      393,
+      396,
+      9,
+      276,
+      3,
+      199,
+      235,
+      57,
+      27
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 164,
+    "username": "elena_gupta64",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#ai",
+      "#hackathons",
+      "#python",
+      "#research"
+    ],
+    "followed_user_ids": [
+      298,
+      212,
+      355,
+      8,
+      229,
+      353,
+      45,
+      54
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 165,
+    "username": "zoe_wang65",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#freshman",
+      "#clubs",
+      "#housing",
+      "#campuslife",
+      "#advice"
+    ],
+    "followed_user_ids": [
+      229,
+      298,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 166,
+    "username": "mei_rao66",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#internships",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      6,
+      382,
+      272,
+      10,
+      353,
+      199,
+      189
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 167,
+    "username": "morgan_lee67",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#systems",
+      "#cs",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      4,
+      105,
+      337,
+      218,
+      51,
+      28,
+      162,
+      308,
+      10,
+      209,
+      265,
+      3,
+      212,
+      189,
+      58,
+      323
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 168,
+    "username": "emma_zhang68",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#coding",
+      "#ai",
+      "#events"
+    ],
+    "followed_user_ids": [
+      51,
+      184,
+      318,
+      396,
+      2,
+      355,
+      357
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 169,
+    "username": "ACM_StudentChapter_169",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#events",
+      "#sports",
+      "#music",
+      "#clubs",
+      "#social"
+    ],
+    "followed_user_ids": [
+      161,
+      359,
+      8,
+      217,
+      207,
+      20,
+      383,
+      229,
+      231,
+      352,
+      289,
+      331,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 170,
+    "username": "ta_liam_170",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#homework",
+      "#cs",
+      "#grading",
+      "#exam",
+      "#math"
+    ],
+    "followed_user_ids": [
+      383,
+      9,
+      266,
+      337,
+      238,
+      74,
+      162,
+      230
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 171,
+    "username": "mei_lopez71",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#internships",
+      "#webdev",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      394,
+      361,
+      330,
+      9,
+      265,
+      91,
+      355,
+      289,
+      359,
+      71,
+      28,
+      18
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 172,
+    "username": "amina_tanaka72",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#lablife",
+      "#research",
+      "#academia",
+      "#biotech",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      9,
+      188,
+      397,
+      265,
+      214,
+      282,
+      357,
+      337,
+      170,
+      258,
+      7,
+      393,
+      10
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 173,
+    "username": "chris_lopez73",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#webdev",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      229,
+      9,
+      298,
+      2,
+      214,
+      357,
+      170,
+      359
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 174,
+    "username": "ACM_StudentChapter_174",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#events",
+      "#campuslife",
+      "#music",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      18,
+      232,
+      87,
+      352,
+      122,
+      3,
+      212,
+      146,
+      303,
+      355,
+      214,
+      206,
+      349
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 175,
+    "username": "liam_rossi75",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#hackathons",
+      "#coding",
+      "#webdev",
+      "#systems",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      122,
+      344,
+      265,
+      304,
+      294,
+      261,
+      51,
+      185,
+      8,
+      194,
+      393,
+      9,
+      352,
+      11,
+      253
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 176,
+    "username": "ta_wei_176",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#math",
+      "#exam",
+      "#homework",
+      "#officehours",
+      "#study"
+    ],
+    "followed_user_ids": [
+      352,
+      296,
+      233,
+      3,
+      91,
+      267,
+      355,
+      289,
+      71,
+      38,
+      285,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 177,
+    "username": "lucas_gupta77",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#academia",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      3,
+      235,
+      280,
+      355,
+      322,
+      37,
+      193,
+      61,
+      381,
+      8,
+      361,
+      285,
+      199,
+      87,
+      352,
+      276,
+      331
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 178,
+    "username": "ava_rao78",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#advice",
+      "#housing",
+      "#freshman",
+      "#study",
+      "#campuslife",
+      "#events"
+    ],
+    "followed_user_ids": [
+      231
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 179,
+    "username": "hassan_rodriguez79",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#ai",
+      "#webdev",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      337,
+      170,
+      303,
+      8,
+      361,
+      393,
+      75,
+      87,
+      308,
+      298,
+      3,
+      81,
+      146,
+      2,
+      388,
+      355,
+      368
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 180,
+    "username": "sam_smith80",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#python",
+      "#systems",
+      "#coding",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      238,
+      8,
+      348,
+      194,
+      86,
+      52,
+      218,
+      76,
+      290,
+      2,
+      355,
+      103
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 181,
+    "username": "maya_rodriguez81",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#hackathons",
+      "#python"
+    ],
+    "followed_user_ids": [
+      276,
+      331,
+      213,
+      399,
+      3,
+      235,
+      303,
+      83,
+      4,
+      236,
+      337,
+      6,
+      359,
+      51,
+      361,
+      230,
+      20,
+      355
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 182,
+    "username": "ethan_rao82",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#freshman",
+      "#campuslife",
+      "#housing"
+    ],
+    "followed_user_ids": [
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 183,
+    "username": "morgan_tanaka83",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#clubs",
+      "#housing"
+    ],
+    "followed_user_ids": [
+      8,
+      361
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 184,
+    "username": "emma_lopez84",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#webdev",
+      "#coding",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      276,
+      91,
+      212,
+      234,
+      322,
+      289,
+      171,
+      259,
+      236,
+      357,
+      180,
+      170,
+      238,
+      359,
+      349
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 185,
+    "username": "CampusDaily_185",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#fest",
+      "#music",
+      "#clubs",
+      "#sports",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      8,
+      229,
+      322,
+      289,
+      46,
+      258,
+      379,
+      169,
+      214
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 186,
+    "username": "morgan_patel86",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#campuslife",
+      "#housing"
+    ],
+    "followed_user_ids": [
+      214
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 187,
+    "username": "sofia_rodriguez87",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biotech",
+      "#academia",
+      "#crispr",
+      "#research"
+    ],
+    "followed_user_ids": [
+      206,
+      9,
+      266,
+      3,
+      58,
+      4,
+      138
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 188,
+    "username": "leo_muller88",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#genomics",
+      "#biochem",
+      "#lablife",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      218,
+      51,
+      106,
+      76,
+      30,
+      393,
+      211,
+      3,
+      2,
+      27,
+      258
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 189,
+    "username": "liam_patel89",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#webdev",
+      "#hackathons",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      110,
+      377,
+      212,
+      81,
+      234,
+      337,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 190,
+    "username": "chloe_muller90",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#hackathons",
+      "#cs",
+      "#internships",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      361,
+      252,
+      9,
+      156,
+      398,
+      355,
+      211,
+      165,
+      289,
+      157,
+      170,
+      206,
+      6,
+      117,
+      74,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 191,
+    "username": "priya_moreau91",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#study",
+      "#freshman",
+      "#campuslife",
+      "#advice",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      298,
+      258
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 192,
+    "username": "chloe_park92",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#study",
+      "#housing",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      349,
+      87
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 193,
+    "username": "CampusDaily_193",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#fest",
+      "#clubs",
+      "#social"
+    ],
+    "followed_user_ids": [
+      54,
+      298,
+      352,
+      1,
+      3,
+      381,
+      282,
+      259,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 194,
+    "username": "arjun_martinez94",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#ai",
+      "#cs",
+      "#webdev",
+      "#python",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      189,
+      169,
+      146,
+      2,
+      280,
+      5,
+      138,
+      6,
+      238,
+      260,
+      381,
+      8,
+      250,
+      361,
+      308,
+      131,
+      276,
+      122
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 195,
+    "username": "jamie_dubois95",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#python",
+      "#systems",
+      "#internships",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      355,
+      298,
+      4,
+      216,
+      8,
+      361
+    ],
+    "blocked_user_ids": [
+      225
+    ]
+  },
+  {
+    "user_id": 196,
+    "username": "ta_hannah_196",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#grading",
+      "#cs",
+      "#study",
+      "#officehours",
+      "#math"
+    ],
+    "followed_user_ids": [
+      180,
+      238,
+      107,
+      74,
+      283,
+      76,
+      9,
+      352,
+      296,
+      276,
+      308,
+      190,
+      157,
+      235,
+      2,
+      355,
+      214
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 197,
+    "username": "emma_zhang97",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#study",
+      "#housing",
+      "#advice",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      193
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 198,
+    "username": "sam_garcia98",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#freshman",
+      "#housing",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      337,
+      349
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 199,
+    "username": "ta_sam_199",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#grading",
+      "#study",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      248,
+      382,
+      185,
+      296,
+      9,
+      264,
+      87,
+      211,
+      146,
+      303,
+      355
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 200,
+    "username": "CampusDaily_200",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#music",
+      "#fest",
+      "#social"
+    ],
+    "followed_user_ids": [
+      136,
+      284,
+      359,
+      8,
+      9,
+      289,
+      122,
+      3,
+      212
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 201,
+    "username": "david_park1",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#internships",
+      "#python"
+    ],
+    "followed_user_ids": [
+      152,
+      207,
+      285,
+      9,
+      87,
+      211,
+      200,
+      278,
+      3,
+      189,
+      398,
+      2,
+      388,
+      322,
+      137,
+      238,
+      149,
+      41
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 202,
+    "username": "kavita_muller2",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#cs",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      117,
+      238,
+      9,
+      359,
+      218,
+      152,
+      8,
+      394,
+      386,
+      388,
+      80,
+      235,
+      91,
+      81,
+      346,
+      149
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 203,
+    "username": "emma_park3",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#campuslife",
+      "#study",
+      "#advice",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      230
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 204,
+    "username": "ACM_StudentChapter_204",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#clubs",
+      "#events",
+      "#sports",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      20,
+      87,
+      54,
+      200,
+      134,
+      3,
+      355,
+      326,
+      74
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 205,
+    "username": "mia_tanaka5",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#hackathons",
+      "#systems",
+      "#python"
+    ],
+    "followed_user_ids": [
+      122,
+      235,
+      390,
+      184,
+      229,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 206,
+    "username": "kavita_zhang6",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#python",
+      "#webdev",
+      "#internships",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      232,
+      199,
+      156,
+      398,
+      256,
+      200,
+      3,
+      258,
+      28,
+      158,
+      357
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 207,
+    "username": "ACM_StudentChapter_207",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#events",
+      "#sports",
+      "#social",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      41,
+      8,
+      230,
+      355,
+      235,
+      346,
+      303,
+      382,
+      359
+    ],
+    "blocked_user_ids": [
+      87
+    ]
+  },
+  {
+    "user_id": 208,
+    "username": "liam_park8",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#hackathons",
+      "#webdev",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      331,
+      200,
+      235,
+      146,
+      355,
+      80,
+      357,
+      193,
+      381,
+      393,
+      75,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 209,
+    "username": "kavita_dubois9",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#ai",
+      "#webdev",
+      "#systems",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      235,
+      212,
+      355,
+      312,
+      204,
+      30,
+      151
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 210,
+    "username": "daniel_dubois10",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#crispr",
+      "#genomics",
+      "#biotech",
+      "#lablife"
+    ],
+    "followed_user_ids": [
+      235,
+      388,
+      393,
+      170,
+      30,
+      350,
+      322
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 211,
+    "username": "ta_ava_211",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#math",
+      "#exam",
+      "#cs",
+      "#grading",
+      "#officehours"
+    ],
+    "followed_user_ids": [
+      266,
+      291,
+      3,
+      212,
+      388,
+      304,
+      218,
+      296,
+      8,
+      361,
+      373,
+      196,
+      199,
+      2,
+      355
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 212,
+    "username": "ChessClub_212",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#music",
+      "#sports",
+      "#social"
+    ],
+    "followed_user_ids": [
+      2,
+      87,
+      352,
+      146,
+      28,
+      382,
+      8,
+      76
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 213,
+    "username": "ava_garcia13",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#ai",
+      "#coding",
+      "#webdev",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      83,
+      249,
+      206,
+      349,
+      303,
+      318,
+      7,
+      308,
+      353,
+      9,
+      352,
+      321,
+      278,
+      399,
+      268,
+      2
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 214,
+    "username": "ta_david_214",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#officehours",
+      "#cs",
+      "#grading"
+    ],
+    "followed_user_ids": [
+      112,
+      170,
+      3,
+      393,
+      337,
+      9,
+      296,
+      8,
+      230,
+      76,
+      331,
+      222
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 215,
+    "username": "maya_dubois15",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#coding",
+      "#python",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      337,
+      85,
+      51,
+      162,
+      76,
+      3,
+      5
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 216,
+    "username": "chen_moreau16",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#webdev",
+      "#python",
+      "#cs",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      393,
+      238,
+      162,
+      361,
+      265,
+      98,
+      199,
+      377,
+      48
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 217,
+    "username": "ta_mia_217",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#study",
+      "#grading",
+      "#homework",
+      "#officehours",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      240,
+      9,
+      276,
+      265,
+      3,
+      199,
+      214,
+      289,
+      337,
+      372,
+      349,
+      303,
+      51,
+      139
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 218,
+    "username": "ACM_StudentChapter_218",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#clubs",
+      "#music",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      337,
+      238,
+      74,
+      87,
+      8,
+      229,
+      0,
+      322,
+      278,
+      3,
+      81,
+      214
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 219,
+    "username": "mei_novak19",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#freshman",
+      "#clubs",
+      "#housing"
+    ],
+    "followed_user_ids": [
+      217,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 220,
+    "username": "ChessClub_220",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#sports",
+      "#social",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      76,
+      87,
+      54,
+      355,
+      321,
+      3,
+      2,
+      303
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 221,
+    "username": "casey_novak21",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#lablife",
+      "#research",
+      "#genomics",
+      "#biotech"
+    ],
+    "followed_user_ids": [
+      359,
+      152,
+      8,
+      361,
+      75,
+      153,
+      352,
+      332,
+      188,
+      289,
+      91,
+      212,
+      138,
+      393
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 222,
+    "username": "david_muller22",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#internships",
+      "#coding",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      10,
+      2,
+      276,
+      291,
+      259,
+      314,
+      392,
+      296
+    ],
+    "blocked_user_ids": [
+      1
+    ]
+  },
+  {
+    "user_id": 223,
+    "username": "jordan_jones23",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#research",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      8,
+      331,
+      298,
+      275,
+      386,
+      199,
+      388,
+      188,
+      3,
+      214,
+      138,
+      87
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 224,
+    "username": "oliver_park24",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#webdev",
+      "#hackathons",
+      "#python"
+    ],
+    "followed_user_ids": [
+      321,
+      144,
+      3,
+      346,
+      169,
+      38,
+      355,
+      37,
+      269,
+      282,
+      357,
+      84,
+      42,
+      199,
+      9,
+      241
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 225,
+    "username": "morgan_brown25",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#cs",
+      "#webdev",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      266,
+      144,
+      3,
+      212,
+      81,
+      303,
+      158,
+      92,
+      359,
+      296,
+      8,
+      30,
+      265
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 226,
+    "username": "jordan_ito26",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#campuslife",
+      "#advice",
+      "#clubs",
+      "#study",
+      "#events"
+    ],
+    "followed_user_ids": [
+      74
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 227,
+    "username": "elena_gupta27",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#crispr",
+      "#biotech",
+      "#lablife",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      289,
+      112,
+      200,
+      212,
+      169,
+      393,
+      249,
+      170,
+      9,
+      218,
+      106,
+      229,
+      330,
+      153,
+      2,
+      352
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 228,
+    "username": "leo_park28",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#freshman",
+      "#clubs",
+      "#campuslife",
+      "#advice"
+    ],
+    "followed_user_ids": [
+      324
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 229,
+    "username": "CampusDaily_229",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#sports",
+      "#campuslife",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      390,
+      337,
+      8,
+      352,
+      67,
+      220,
+      331,
+      114,
+      2
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 230,
+    "username": "ta_hannah_230",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#exam",
+      "#homework",
+      "#officehours",
+      "#grading"
+    ],
+    "followed_user_ids": [
+      2,
+      355,
+      336,
+      218,
+      394,
+      76,
+      151,
+      276,
+      1,
+      377,
+      331,
+      114
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 231,
+    "username": "rahul_novak31",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#academia",
+      "#crispr",
+      "#biochem",
+      "#research",
+      "#biotech"
+    ],
+    "followed_user_ids": [
+      166,
+      398,
+      388,
+      211,
+      3,
+      315,
+      206,
+      392,
+      382,
+      51,
+      87,
+      54,
+      8,
+      230,
+      331,
+      199
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 232,
+    "username": "HackersOrg_232",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#clubs",
+      "#social",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      337,
+      238,
+      296,
+      8,
+      361,
+      20,
+      154,
+      352,
+      135,
+      278,
+      58,
+      169,
+      267,
+      38
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 233,
+    "username": "hassan_park33",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#genomics",
+      "#academia",
+      "#lablife",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      225,
+      81,
+      204,
+      196,
+      9,
+      359,
+      97,
+      298,
+      2,
+      388,
+      266,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 234,
+    "username": "sofia_martinez34",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#hackathons",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      185,
+      76,
+      174,
+      10,
+      209,
+      284,
+      3,
+      222,
+      5,
+      355,
+      37,
+      337,
+      193
+    ],
+    "blocked_user_ids": [
+      225
+    ]
+  },
+  {
+    "user_id": 235,
+    "username": "ta_liam_235",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#math",
+      "#study",
+      "#officehours",
+      "#exam",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      393,
+      337,
+      193,
+      238,
+      51,
+      217,
+      56,
+      398,
+      355,
+      14,
+      399,
+      3,
+      303
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 236,
+    "username": "hiroshi_moreau36",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#webdev",
+      "#cs",
+      "#internships",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      361,
+      9,
+      24,
+      331,
+      258,
+      388,
+      214,
+      312,
+      393,
+      382
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 237,
+    "username": "rahul_chen37",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#cs",
+      "#webdev",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      230,
+      298,
+      265,
+      322,
+      276,
+      200,
+      58,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 238,
+    "username": "ACM_StudentChapter_238",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#music",
+      "#social",
+      "#clubs",
+      "#sports",
+      "#events"
+    ],
+    "followed_user_ids": [
+      361,
+      30,
+      285,
+      2,
+      87,
+      355,
+      212,
+      146,
+      38
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 239,
+    "username": "ava_lopez39",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#python",
+      "#systems",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      398,
+      276,
+      200,
+      3,
+      81,
+      303,
+      5,
+      161,
+      370,
+      173,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 240,
+    "username": "priya_patel40",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#clubs",
+      "#freshman",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      322,
+      149
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 241,
+    "username": "hiroshi_martinez41",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#freshman",
+      "#campuslife",
+      "#study"
+    ],
+    "followed_user_ids": [
+      321,
+      164,
+      373
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 242,
+    "username": "hiroshi_martinez42",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#freshman",
+      "#housing",
+      "#campuslife",
+      "#study"
+    ],
+    "followed_user_ids": [
+      388
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 243,
+    "username": "amina_ito43",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#biotech",
+      "#crispr",
+      "#biochem"
+    ],
+    "followed_user_ids": [
+      367,
+      46,
+      278,
+      3,
+      235,
+      333,
+      61,
+      214,
+      27,
+      138,
+      238,
+      54,
+      8,
+      141
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 244,
+    "username": "yuki_chen44",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#webdev",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      77,
+      355,
+      357,
+      213,
+      13,
+      3,
+      235,
+      313,
+      169,
+      182,
+      382,
+      359,
+      384,
+      131
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 245,
+    "username": "wei_rao45",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#advice",
+      "#clubs",
+      "#campuslife",
+      "#freshman"
+    ],
+    "followed_user_ids": [
+      331,
+      209
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 246,
+    "username": "emma_johnson46",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#academia",
+      "#biotech",
+      "#lablife",
+      "#genomics",
+      "#biochem",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      214,
+      37,
+      107,
+      384,
+      242,
+      32,
+      355,
+      23,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 247,
+    "username": "sofia_garcia47",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#advice",
+      "#campuslife",
+      "#study"
+    ],
+    "followed_user_ids": [
+      214
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 248,
+    "username": "riley_williams48",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#clubs",
+      "#freshman"
+    ],
+    "followed_user_ids": [
+      352,
+      170,
+      345
+    ],
+    "blocked_user_ids": [
+      293
+    ]
+  },
+  {
+    "user_id": 249,
+    "username": "ethan_martinez49",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#campuslife",
+      "#freshman",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      327,
+      296,
+      112
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 250,
+    "username": "david_park50",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#python",
+      "#coding",
+      "#cs",
+      "#events"
+    ],
+    "followed_user_ids": [
+      76,
+      131,
+      0,
+      78,
+      9,
+      87,
+      321,
+      3,
+      214,
+      171,
+      269,
+      357,
+      393,
+      170,
+      218,
+      51
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 251,
+    "username": "sam_kim51",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#genomics",
+      "#lablife",
+      "#research"
+    ],
+    "followed_user_ids": [
+      0,
+      355,
+      48,
+      312,
+      393,
+      183,
+      304,
+      284
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 252,
+    "username": "mia_ito52",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#advice",
+      "#clubs",
+      "#study",
+      "#freshman"
+    ],
+    "followed_user_ids": [
+      107,
+      87
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 253,
+    "username": "zoe_smith53",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#ai",
+      "#python",
+      "#webdev"
+    ],
+    "followed_user_ids": [
+      394,
+      361,
+      20,
+      298,
+      342,
+      146,
+      312,
+      337
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 254,
+    "username": "zoe_garcia54",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#ai",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      6,
+      238,
+      74,
+      316,
+      87,
+      296,
+      8,
+      217,
+      298,
+      10,
+      386,
+      222,
+      276,
+      158,
+      213,
+      3,
+      235,
+      327
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 255,
+    "username": "lucas_smith55",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#lablife",
+      "#genomics",
+      "#crispr",
+      "#biotech",
+      "#biochem"
+    ],
+    "followed_user_ids": [
+      352,
+      200,
+      298,
+      146,
+      303,
+      381
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 256,
+    "username": "hannah_gupta56",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#housing",
+      "#study"
+    ],
+    "followed_user_ids": [
+      296,
+      375,
+      303
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 257,
+    "username": "ta_ethan_257",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#homework",
+      "#study",
+      "#grading"
+    ],
+    "followed_user_ids": [
+      9,
+      109,
+      76,
+      308,
+      298,
+      131,
+      398,
+      168,
+      357,
+      235,
+      356,
+      25,
+      303,
+      214,
+      393,
+      337
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 258,
+    "username": "ACM_StudentChapter_258",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#fest",
+      "#events",
+      "#campuslife",
+      "#music"
+    ],
+    "followed_user_ids": [
+      2,
+      352,
+      388,
+      355,
+      3,
+      169,
+      303,
+      51,
+      8,
+      384,
+      232,
+      199
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 259,
+    "username": "leo_garcia59",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#internships",
+      "#ai",
+      "#webdev",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      229,
+      2,
+      352,
+      355,
+      301,
+      258,
+      235,
+      91,
+      212,
+      81,
+      61,
+      161,
+      337,
+      284,
+      9,
+      20,
+      373
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 260,
+    "username": "ChessClub_260",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#music",
+      "#clubs",
+      "#social",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      276,
+      122,
+      3,
+      235,
+      81,
+      146,
+      315,
+      87,
+      298
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 261,
+    "username": "amina_rossi61",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#advice",
+      "#clubs",
+      "#freshman",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      170,
+      3,
+      331
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 262,
+    "username": "casey_rodriguez62",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#cs",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      382,
+      30,
+      265,
+      289,
+      266,
+      180,
+      3,
+      114,
+      81,
+      146,
+      280
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 263,
+    "username": "jamie_wang63",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#lablife",
+      "#academia",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      303,
+      393,
+      218,
+      8,
+      207,
+      76,
+      308,
+      20,
+      78,
+      176,
+      189,
+      321,
+      170,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 264,
+    "username": "priya_novak64",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#study",
+      "#campuslife",
+      "#freshman"
+    ],
+    "followed_user_ids": [
+      126
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 265,
+    "username": "ta_daniel_265",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#officehours",
+      "#math",
+      "#homework",
+      "#grading"
+    ],
+    "followed_user_ids": [
+      30,
+      393,
+      74,
+      283,
+      8,
+      76,
+      2,
+      289,
+      213,
+      278,
+      170,
+      3,
+      258,
+      91,
+      81
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 266,
+    "username": "ta_daniel_266",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#exam",
+      "#grading",
+      "#officehours",
+      "#events"
+    ],
+    "followed_user_ids": [
+      258,
+      303,
+      315,
+      30,
+      393,
+      75,
+      9,
+      359,
+      87,
+      8,
+      361,
+      265,
+      199,
+      68,
+      2,
+      289,
+      243,
+      291
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 267,
+    "username": "ta_sarah_267",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#cs",
+      "#math",
+      "#officehours",
+      "#homework",
+      "#study"
+    ],
+    "followed_user_ids": [
+      8,
+      20,
+      199,
+      398,
+      2,
+      244,
+      355,
+      289,
+      200,
+      70,
+      393,
+      170
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 268,
+    "username": "mateo_schmidt68",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#academia",
+      "#lablife",
+      "#biotech"
+    ],
+    "followed_user_ids": [
+      303,
+      315,
+      30,
+      74,
+      54,
+      8,
+      273,
+      263,
+      361,
+      321,
+      242,
+      189,
+      2,
+      357,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 269,
+    "username": "ethan_chen69",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#coding",
+      "#hackathons",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      76,
+      30,
+      386,
+      352,
+      221,
+      44,
+      3,
+      258,
+      379,
+      346,
+      58,
+      303,
+      302,
+      194,
+      337,
+      6,
+      241,
+      283
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 270,
+    "username": "emma_dubois70",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#housing",
+      "#freshman",
+      "#clubs",
+      "#advice"
+    ],
+    "followed_user_ids": [
+      308
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 271,
+    "username": "kavita_chen71",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#advice",
+      "#clubs",
+      "#study"
+    ],
+    "followed_user_ids": [
+      221,
+      3,
+      149
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 272,
+    "username": "avery_muller72",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#housing",
+      "#advice",
+      "#freshman"
+    ],
+    "followed_user_ids": [
+      240,
+      374
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 273,
+    "username": "daniel_smith73",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#study",
+      "#campuslife",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      230,
+      75
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 274,
+    "username": "hassan_gupta74",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#genomics",
+      "#biochem",
+      "#crispr",
+      "#academia"
+    ],
+    "followed_user_ids": [
+      266,
+      146,
+      60,
+      194,
+      359,
+      185,
+      331,
+      298,
+      199,
+      287
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 275,
+    "username": "hassan_lee75",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#lablife",
+      "#biochem",
+      "#biotech"
+    ],
+    "followed_user_ids": [
+      2,
+      377,
+      278,
+      3,
+      212,
+      381,
+      214,
+      83,
+      337,
+      349,
+      195,
+      87,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 276,
+    "username": "ta_hannah_276",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#study",
+      "#cs",
+      "#homework",
+      "#math",
+      "#exam"
+    ],
+    "followed_user_ids": [
+      289,
+      279,
+      13,
+      170,
+      3,
+      171,
+      337,
+      9,
+      74,
+      296,
+      8,
+      361,
+      76
+    ],
+    "blocked_user_ids": [
+      141
+    ]
+  },
+  {
+    "user_id": 277,
+    "username": "HackersOrg_277",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#campuslife",
+      "#fest",
+      "#music",
+      "#social",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      146,
+      355,
+      3,
+      346,
+      381,
+      359,
+      218,
+      87,
+      352,
+      54,
+      361,
+      230,
+      220,
+      101
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 278,
+    "username": "ta_ava_278",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#exam",
+      "#cs",
+      "#study",
+      "#homework"
+    ],
+    "followed_user_ids": [
+      199,
+      25,
+      355,
+      289,
+      321,
+      357,
+      170,
+      235,
+      214,
+      9,
+      54,
+      296,
+      8,
+      298,
+      265
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 279,
+    "username": "ta_riley_279",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#math",
+      "#officehours",
+      "#study",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      146,
+      38,
+      227,
+      304,
+      6,
+      238,
+      9,
+      54,
+      308,
+      373,
+      2,
+      91
+    ],
+    "blocked_user_ids": [
+      169
+    ]
+  },
+  {
+    "user_id": 280,
+    "username": "noah_park80",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#freshman",
+      "#campuslife",
+      "#study",
+      "#housing"
+    ],
+    "followed_user_ids": [
+      3,
+      258,
+      54
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 281,
+    "username": "david_park81",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#ai",
+      "#internships",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      173,
+      218,
+      54,
+      296,
+      230,
+      220,
+      265,
+      388,
+      355,
+      211,
+      158,
+      46,
+      13,
+      170,
+      258,
+      169,
+      290
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 282,
+    "username": "arjun_tanaka82",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#biochem",
+      "#lablife",
+      "#academia",
+      "#biotech"
+    ],
+    "followed_user_ids": [
+      38,
+      229,
+      9,
+      359,
+      296,
+      8,
+      164,
+      36,
+      258,
+      114
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 283,
+    "username": "lucas_chen83",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#hackathons",
+      "#webdev",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      170,
+      230,
+      331,
+      199,
+      2,
+      4
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 284,
+    "username": "ChessClub_284",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#fest",
+      "#events",
+      "#sports",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      54,
+      298,
+      229,
+      2,
+      352,
+      355,
+      276,
+      212,
+      346,
+      169,
+      303,
+      113
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 285,
+    "username": "yuki_hernandez85",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#python",
+      "#cs",
+      "#webdev"
+    ],
+    "followed_user_ids": [
+      5,
+      393,
+      20,
+      337,
+      361,
+      220,
+      199,
+      355,
+      4,
+      357,
+      36,
+      157,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 286,
+    "username": "chris_martinez86",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#lablife",
+      "#academia",
+      "#research",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      152,
+      98,
+      156,
+      146,
+      276,
+      279,
+      4,
+      200,
+      190,
+      134,
+      399,
+      3,
+      235,
+      48,
+      303,
+      337
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 287,
+    "username": "lucas_chen87",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#lablife",
+      "#research",
+      "#biotech",
+      "#crispr",
+      "#genomics",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      327,
+      284,
+      8,
+      232,
+      2,
+      46,
+      301,
+      212,
+      337
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 288,
+    "username": "mei_ito88",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#python",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      266,
+      279,
+      321,
+      13,
+      258,
+      235,
+      214,
+      312,
+      337,
+      304,
+      238,
+      9,
+      359,
+      326,
+      361,
+      30,
+      308
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 289,
+    "username": "CampusDaily_289",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#campuslife",
+      "#fest",
+      "#social"
+    ],
+    "followed_user_ids": [
+      74,
+      87,
+      189,
+      211,
+      266,
+      357,
+      238,
+      359,
+      303,
+      51,
+      27,
+      30,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 290,
+    "username": "david_lee90",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#webdev",
+      "#hackathons",
+      "#systems",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      261,
+      74,
+      276,
+      76,
+      154,
+      212,
+      332,
+      345,
+      289,
+      5,
+      381,
+      27
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 291,
+    "username": "chris_ito91",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#coding",
+      "#systems",
+      "#cs",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      289,
+      46,
+      28,
+      106,
+      75,
+      238,
+      74
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 292,
+    "username": "rahul_sharma92",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#campuslife",
+      "#study",
+      "#freshman",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      279
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 293,
+    "username": "oliver_wang93",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#lablife",
+      "#academia",
+      "#genomics",
+      "#crispr"
+    ],
+    "followed_user_ids": [
+      322,
+      357,
+      3,
+      192,
+      27,
+      74,
+      8,
+      298,
+      330,
+      343,
+      146,
+      2
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 294,
+    "username": "avery_rossi94",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#hackathons",
+      "#ai",
+      "#cs",
+      "#webdev",
+      "#research"
+    ],
+    "followed_user_ids": [
+      101,
+      4,
+      278,
+      399,
+      3,
+      235,
+      346,
+      359,
+      61,
+      303,
+      106,
+      107,
+      352,
+      8,
+      361,
+      230,
+      56,
+      330
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 295,
+    "username": "mateo_muller95",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biotech",
+      "#crispr",
+      "#lablife"
+    ],
+    "followed_user_ids": [
+      9,
+      54,
+      331,
+      2,
+      355,
+      92,
+      399,
+      170,
+      3,
+      235,
+      146
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 296,
+    "username": "ta_ethan_296",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#exam",
+      "#grading",
+      "#math"
+    ],
+    "followed_user_ids": [
+      235,
+      327,
+      238,
+      51,
+      331,
+      265,
+      242,
+      330,
+      2,
+      352,
+      276,
+      266,
+      357,
+      399
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 297,
+    "username": "daniel_rodriguez97",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#systems",
+      "#cs",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      117,
+      238,
+      51,
+      296,
+      189,
+      375,
+      158
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 298,
+    "username": "HackersOrg_298",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#sports",
+      "#music",
+      "#social"
+    ],
+    "followed_user_ids": [
+      303,
+      250,
+      30,
+      393,
+      229,
+      284,
+      352,
+      361,
+      20,
+      398,
+      289,
+      200,
+      157,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 299,
+    "username": "lucas_rodriguez99",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#hackathons",
+      "#systems",
+      "#webdev"
+    ],
+    "followed_user_ids": [
+      13,
+      291,
+      194,
+      238,
+      9,
+      352,
+      296,
+      76,
+      20,
+      265,
+      212,
+      289,
+      279,
+      269
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 300,
+    "username": "morgan_tanaka0",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#hackathons",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      2,
+      352,
+      258,
+      323,
+      293,
+      337
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 301,
+    "username": "daniel_muller1",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#biotech",
+      "#lablife",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      239,
+      238,
+      9,
+      230,
+      76,
+      365,
+      390,
+      170,
+      212
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 302,
+    "username": "mei_smith2",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#academia",
+      "#genomics",
+      "#lablife"
+    ],
+    "followed_user_ids": [
+      185,
+      3,
+      260,
+      8,
+      143,
+      296,
+      2,
+      257,
+      357
+    ],
+    "blocked_user_ids": [
+      25
+    ]
+  },
+  {
+    "user_id": 303,
+    "username": "ACM_StudentChapter_303",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#clubs",
+      "#social",
+      "#events",
+      "#campuslife",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      352,
+      20,
+      388,
+      355,
+      322,
+      357,
+      399,
+      3,
+      81,
+      359,
+      260,
+      204,
+      30
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 304,
+    "username": "ta_hiroshi_304",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#homework",
+      "#study",
+      "#grading",
+      "#exam",
+      "#officehours"
+    ],
+    "followed_user_ids": [
+      7,
+      337,
+      8,
+      44,
+      111,
+      398,
+      388,
+      355,
+      170,
+      3
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 305,
+    "username": "priya_rodriguez5",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#freshman",
+      "#campuslife",
+      "#study",
+      "#advice",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      209,
+      51
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 306,
+    "username": "emma_moreau6",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#academia",
+      "#research",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      196,
+      52,
+      9,
+      74,
+      87,
+      8,
+      76,
+      144,
+      322,
+      70,
+      289,
+      3,
+      106,
+      17,
+      393,
+      337
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 307,
+    "username": "ethan_sharma7",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#systems",
+      "#hackathons",
+      "#cs",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      113,
+      234,
+      355,
+      122,
+      4,
+      236,
+      213,
+      212,
+      259,
+      337,
+      206,
+      6,
+      9,
+      87,
+      76,
+      199
+    ],
+    "blocked_user_ids": [
+      190
+    ]
+  },
+  {
+    "user_id": 308,
+    "username": "ta_alex_308",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#grading",
+      "#homework",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      189,
+      234,
+      355,
+      279,
+      357,
+      399,
+      3,
+      346,
+      303,
+      238,
+      87,
+      207,
+      331
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 309,
+    "username": "sam_chen9",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#internships",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      209,
+      146,
+      211,
+      359,
+      30,
+      206,
+      304,
+      352
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 310,
+    "username": "rahul_dubois10",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#crispr",
+      "#academia"
+    ],
+    "followed_user_ids": [
+      146,
+      355,
+      322,
+      387,
+      200,
+      213,
+      170,
+      238,
+      30,
+      284,
+      9,
+      107,
+      20
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 311,
+    "username": "yuki_kim11",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#cs",
+      "#systems",
+      "#coding",
+      "#events"
+    ],
+    "followed_user_ids": [
+      46,
+      22,
+      25,
+      146,
+      347,
+      235,
+      51,
+      9,
+      276,
+      230,
+      76
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 312,
+    "username": "riley_johnson12",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#coding",
+      "#ai",
+      "#systems",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      235,
+      81,
+      336,
+      393,
+      6,
+      9,
+      352,
+      374,
+      230,
+      146
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 313,
+    "username": "hassan_kim13",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#advice",
+      "#housing",
+      "#clubs",
+      "#study",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      18,
+      337,
+      289
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 314,
+    "username": "elena_kim14",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#study",
+      "#advice",
+      "#housing"
+    ],
+    "followed_user_ids": [
+      51
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 315,
+    "username": "ta_taylor_315",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#math",
+      "#grading",
+      "#homework",
+      "#exam",
+      "#cs",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      359,
+      51,
+      305,
+      337,
+      74,
+      70,
+      1,
+      266
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 316,
+    "username": "taylor_kim16",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#biochem",
+      "#biotech",
+      "#research",
+      "#lablife"
+    ],
+    "followed_user_ids": [
+      3,
+      258,
+      81,
+      38,
+      361,
+      337,
+      206,
+      9,
+      362,
+      54,
+      8,
+      207,
+      200,
+      399,
+      212,
+      189,
+      136,
+      322
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 317,
+    "username": "mei_chen17",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#ai",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      349,
+      361,
+      164,
+      37,
+      122,
+      213,
+      3,
+      258,
+      15
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 318,
+    "username": "mei_novak18",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#coding",
+      "#webdev",
+      "#hackathons",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      63,
+      193,
+      229,
+      352,
+      185,
+      54,
+      8,
+      253,
+      76,
+      10,
+      2,
+      213,
+      180,
+      3,
+      212,
+      303
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 319,
+    "username": "jamie_tanaka19",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#python",
+      "#hackathons",
+      "#systems",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      54,
+      308,
+      375,
+      2,
+      234,
+      322,
+      4,
+      347,
+      157,
+      3,
+      159,
+      149,
+      214,
+      337,
+      284,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 320,
+    "username": "hannah_schmidt20",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#biochem",
+      "#academia"
+    ],
+    "followed_user_ids": [
+      75,
+      263,
+      288,
+      289,
+      390,
+      379
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 321,
+    "username": "ta_morgan_321",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#cs",
+      "#math",
+      "#grading",
+      "#officehours",
+      "#study"
+    ],
+    "followed_user_ids": [
+      361,
+      393,
+      337,
+      74,
+      87,
+      109,
+      76,
+      308,
+      298,
+      399,
+      199,
+      91,
+      2,
+      355,
+      266,
+      4,
+      147,
+      303
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 322,
+    "username": "ChessClub_322",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#clubs",
+      "#fest",
+      "#music",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      20,
+      289,
+      200,
+      157,
+      3,
+      258,
+      212,
+      217,
+      7,
+      337,
+      9,
+      339,
+      54,
+      384,
+      361
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 323,
+    "username": "hassan_rossi23",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#webdev",
+      "#internships",
+      "#cs",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      339,
+      44,
+      76,
+      167,
+      278,
+      91,
+      2,
+      312,
+      289,
+      357,
+      170,
+      3,
+      235,
+      359,
+      51,
+      361
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 324,
+    "username": "mia_park24",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#campuslife",
+      "#study"
+    ],
+    "followed_user_ids": [
+      20
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 325,
+    "username": "ta_emma_325",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#homework",
+      "#grading",
+      "#exam",
+      "#study"
+    ],
+    "followed_user_ids": [
+      331,
+      308,
+      298,
+      199,
+      378,
+      157,
+      235,
+      81,
+      260,
+      214,
+      117,
+      9,
+      352,
+      230,
+      76
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 326,
+    "username": "oliver_rao26",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#biotech",
+      "#research"
+    ],
+    "followed_user_ids": [
+      235,
+      346,
+      169,
+      280,
+      106,
+      337,
+      359,
+      349,
+      2,
+      377
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 327,
+    "username": "CampusDaily_327",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#social",
+      "#music",
+      "#clubs",
+      "#sports",
+      "#fest"
+    ],
+    "followed_user_ids": [
+      212,
+      289,
+      3,
+      258,
+      238,
+      28,
+      8,
+      315,
+      30,
+      393,
+      74,
+      230
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 328,
+    "username": "alex_williams28",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#biotech",
+      "#academia"
+    ],
+    "followed_user_ids": [
+      190,
+      3,
+      346,
+      238,
+      381,
+      129,
+      207,
+      393,
+      74,
+      87,
+      296,
+      397
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 329,
+    "username": "oliver_muller29",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#ai",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      258,
+      235,
+      346,
+      51,
+      337,
+      107,
+      41,
+      132,
+      144,
+      143,
+      345,
+      69,
+      203
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 330,
+    "username": "sofia_hernandez30",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#genomics",
+      "#crispr",
+      "#lablife",
+      "#biochem"
+    ],
+    "followed_user_ids": [
+      200,
+      157,
+      160,
+      379,
+      51,
+      337,
+      206,
+      382,
+      349,
+      87,
+      352,
+      8,
+      212
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 331,
+    "username": "ta_daniel_331",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#homework",
+      "#cs",
+      "#math",
+      "#officehours"
+    ],
+    "followed_user_ids": [
+      393,
+      9,
+      276,
+      230,
+      298,
+      265,
+      386,
+      212,
+      2,
+      289,
+      181,
+      170,
+      3,
+      235
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 332,
+    "username": "hiroshi_rodriguez32",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#coding",
+      "#ai",
+      "#systems",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      170,
+      258,
+      169,
+      149,
+      5,
+      8,
+      138,
+      337,
+      352,
+      230,
+      278,
+      70
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 333,
+    "username": "hannah_gupta33",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#hackathons",
+      "#ai",
+      "#systems",
+      "#python",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      284,
+      162,
+      10,
+      276,
+      4,
+      25
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 334,
+    "username": "elena_lee34",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#hackathons",
+      "#internships",
+      "#python",
+      "#coding",
+      "#events"
+    ],
+    "followed_user_ids": [
+      347,
+      54,
+      361,
+      230,
+      265,
+      166,
+      388,
+      14,
+      357,
+      311,
+      170,
+      3,
+      379,
+      212,
+      303,
+      51
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 335,
+    "username": "priya_smith35",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#ai",
+      "#coding",
+      "#cs",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      346,
+      349,
+      182,
+      303,
+      285,
+      9,
+      218,
+      352,
+      152,
+      224,
+      178
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 336,
+    "username": "sam_novak36",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#freshman",
+      "#advice",
+      "#clubs",
+      "#housing",
+      "#study",
+      "#ai"
+    ],
+    "followed_user_ids": [
+      352,
+      361,
+      70
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 337,
+    "username": "ta_alex_337",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#math",
+      "#officehours",
+      "#homework",
+      "#study",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      393,
+      74,
+      91,
+      212,
+      398,
+      2,
+      235,
+      81,
+      169,
+      214
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 338,
+    "username": "alex_chen38",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#academia",
+      "#biotech",
+      "#crispr",
+      "#lablife",
+      "#biochem"
+    ],
+    "followed_user_ids": [
+      398,
+      2,
+      289,
+      170,
+      258,
+      303,
+      337,
+      284,
+      130,
+      296,
+      384,
+      76,
+      331
+    ],
+    "blocked_user_ids": [
+      141
+    ]
+  },
+  {
+    "user_id": 339,
+    "username": "jordan_park39",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#python",
+      "#ai",
+      "#cs",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      229,
+      9,
+      87,
+      10,
+      25,
+      2,
+      312,
+      259,
+      170,
+      6,
+      359,
+      51,
+      162,
+      381,
+      8,
+      20
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 340,
+    "username": "elena_williams40",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#genomics",
+      "#lablife",
+      "#crispr",
+      "#biochem",
+      "#research"
+    ],
+    "followed_user_ids": [
+      2,
+      355,
+      14,
+      258,
+      393,
+      284,
+      9,
+      352,
+      54,
+      361
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 341,
+    "username": "maya_gupta41",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#research",
+      "#lablife"
+    ],
+    "followed_user_ids": [
+      232,
+      2,
+      188,
+      302,
+      3,
+      258,
+      238,
+      359,
+      336,
+      169,
+      393,
+      239,
+      183,
+      251,
+      107,
+      87,
+      76
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 342,
+    "username": "chris_ito42",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#python",
+      "#internships",
+      "#systems",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      45,
+      355,
+      201,
+      377,
+      311,
+      193,
+      3,
+      6,
+      117,
+      51,
+      214,
+      174,
+      337,
+      350,
+      339,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 343,
+    "username": "morgan_ito43",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#research",
+      "#biotech"
+    ],
+    "followed_user_ids": [
+      169,
+      337,
+      229,
+      238,
+      9,
+      11,
+      113,
+      322
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 344,
+    "username": "liam_ito44",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#genomics",
+      "#biotech",
+      "#biochem",
+      "#crispr",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      298,
+      58,
+      169,
+      146,
+      289,
+      170,
+      3,
+      9,
+      76
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 345,
+    "username": "RoboticsClub_345",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#events",
+      "#sports",
+      "#fest"
+    ],
+    "followed_user_ids": [
+      359,
+      303,
+      51,
+      284,
+      9,
+      74,
+      87,
+      352,
+      185,
+      54,
+      296,
+      165,
+      357,
+      170
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 346,
+    "username": "BioSoc_346",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#social",
+      "#fest",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      3,
+      238,
+      393,
+      9,
+      76,
+      131,
+      398,
+      355,
+      345,
+      289
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 347,
+    "username": "chloe_zhang47",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#coding",
+      "#ai",
+      "#webdev"
+    ],
+    "followed_user_ids": [
+      234,
+      289,
+      37,
+      170,
+      3,
+      258,
+      379,
+      346,
+      326,
+      174,
+      339,
+      109,
+      230,
+      353,
+      199,
+      2
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 348,
+    "username": "yuki_tanaka48",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#lablife",
+      "#academia",
+      "#research",
+      "#biotech",
+      "#biochem"
+    ],
+    "followed_user_ids": [
+      359,
+      8,
+      9,
+      393,
+      87,
+      45,
+      398,
+      355,
+      322,
+      70
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 349,
+    "username": "RoboticsClub_349",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#social",
+      "#campuslife",
+      "#sports",
+      "#music"
+    ],
+    "followed_user_ids": [
+      105,
+      291,
+      304,
+      258,
+      238,
+      51,
+      53,
+      251,
+      296,
+      331,
+      79,
+      298,
+      199,
+      355
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 350,
+    "username": "amina_patel50",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#lablife",
+      "#academia",
+      "#crispr",
+      "#research",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      206,
+      304,
+      9,
+      74,
+      109,
+      122,
+      212,
+      375,
+      2,
+      257,
+      355,
+      3,
+      268,
+      258,
+      6,
+      51,
+      214
+    ],
+    "blocked_user_ids": [
+      363
+    ]
+  },
+  {
+    "user_id": 351,
+    "username": "yuki_lopez51",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#advice",
+      "#housing",
+      "#clubs",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      20,
+      284,
+      87
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 352,
+    "username": "HackersOrg_352",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#campuslife",
+      "#clubs",
+      "#sports",
+      "#social",
+      "#music"
+    ],
+    "followed_user_ids": [
+      382,
+      8,
+      134,
+      357,
+      170,
+      3,
+      258,
+      6,
+      117,
+      238,
+      359,
+      303,
+      214
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 353,
+    "username": "jamie_schmidt53",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#systems",
+      "#hackathons",
+      "#cs",
+      "#python",
+      "#events"
+    ],
+    "followed_user_ids": [
+      382,
+      87,
+      1,
+      331,
+      285,
+      287,
+      291,
+      359,
+      217
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 354,
+    "username": "emma_martinez54",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#python",
+      "#cs",
+      "#webdev"
+    ],
+    "followed_user_ids": [
+      8,
+      106,
+      272,
+      9,
+      362,
+      230,
+      122,
+      76,
+      265,
+      278,
+      2,
+      279,
+      238,
+      349,
+      303,
+      51
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 355,
+    "username": "ACM_StudentChapter_355",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#campuslife",
+      "#clubs",
+      "#events",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      298,
+      0,
+      146,
+      2,
+      322,
+      235,
+      169,
+      303,
+      229,
+      382,
+      352,
+      54,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 356,
+    "username": "oliver_rao56",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#cs",
+      "#hackathons",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      54,
+      230,
+      154,
+      257,
+      214,
+      6,
+      159,
+      8
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 357,
+    "username": "ACM_StudentChapter_357",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#fest",
+      "#clubs",
+      "#social"
+    ],
+    "followed_user_ids": [
+      398,
+      355,
+      238,
+      393,
+      20,
+      349,
+      87,
+      8,
+      230,
+      200
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 358,
+    "username": "priya_smith58",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#advice",
+      "#clubs",
+      "#freshman",
+      "#research"
+    ],
+    "followed_user_ids": [
+      107,
+      87
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 359,
+    "username": "BioSoc_359",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#clubs",
+      "#campuslife",
+      "#sports",
+      "#fest"
+    ],
+    "followed_user_ids": [
+      170,
+      258,
+      212,
+      303,
+      238,
+      87,
+      8,
+      298,
+      267,
+      355,
+      312,
+      289
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 360,
+    "username": "sarah_rao60",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#academia",
+      "#biotech",
+      "#biochem",
+      "#crispr"
+    ],
+    "followed_user_ids": [
+      265,
+      232,
+      199,
+      212,
+      2,
+      355,
+      4,
+      81,
+      28,
+      8,
+      30,
+      393,
+      9,
+      243
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 361,
+    "username": "ACM_StudentChapter_361",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#clubs",
+      "#sports",
+      "#music",
+      "#events"
+    ],
+    "followed_user_ids": [
+      276,
+      232,
+      3,
+      214,
+      238,
+      349,
+      51,
+      8,
+      54,
+      296
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 362,
+    "username": "oliver_smith62",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#lablife",
+      "#genomics",
+      "#research",
+      "#academia"
+    ],
+    "followed_user_ids": [
+      238,
+      359,
+      303,
+      207,
+      30,
+      337,
+      264,
+      87,
+      276,
+      298,
+      146
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 363,
+    "username": "chloe_rodriguez63",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#crispr",
+      "#biochem",
+      "#academia",
+      "#research"
+    ],
+    "followed_user_ids": [
+      322,
+      3,
+      235,
+      94,
+      361,
+      108,
+      298,
+      146,
+      2
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 364,
+    "username": "lucas_novak64",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#freshman",
+      "#campuslife",
+      "#advice"
+    ],
+    "followed_user_ids": [
+      321,
+      169,
+      289
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 365,
+    "username": "rahul_tanaka65",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biotech",
+      "#crispr",
+      "#academia",
+      "#research",
+      "#genomics"
+    ],
+    "followed_user_ids": [
+      381,
+      217,
+      171,
+      393,
+      9,
+      241,
+      119,
+      200,
+      13,
+      3,
+      70,
+      158
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 366,
+    "username": "sam_novak66",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#advice",
+      "#clubs",
+      "#campuslife",
+      "#study"
+    ],
+    "followed_user_ids": [
+      279,
+      399
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 367,
+    "username": "mateo_tanaka67",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#advice",
+      "#clubs",
+      "#housing",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      200,
+      145,
+      170
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 368,
+    "username": "david_gupta68",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#coding",
+      "#cs",
+      "#hackathons"
+    ],
+    "followed_user_ids": [
+      8,
+      276,
+      189,
+      158,
+      269,
+      357,
+      170
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 369,
+    "username": "leo_rao69",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#cs",
+      "#python",
+      "#hackathons",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      337,
+      9,
+      44,
+      119,
+      11,
+      243,
+      386,
+      169,
+      269,
+      236,
+      3,
+      303,
+      162,
+      381,
+      204,
+      7
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 370,
+    "username": "taylor_gupta70",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#python",
+      "#hackathons",
+      "#internships",
+      "#cs",
+      "#events"
+    ],
+    "followed_user_ids": [
+      361,
+      184,
+      229,
+      9,
+      87,
+      253,
+      230,
+      164,
+      355,
+      4,
+      337,
+      235,
+      6,
+      238,
+      126
+    ],
+    "blocked_user_ids": [
+      99
+    ]
+  },
+  {
+    "user_id": 371,
+    "username": "mei_park71",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#internships",
+      "#python",
+      "#hackathons",
+      "#webdev",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      265,
+      355,
+      311,
+      347,
+      36,
+      6,
+      238,
+      381,
+      204,
+      393,
+      9,
+      329,
+      296,
+      76
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 372,
+    "username": "hannah_muller72",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#python",
+      "#cs",
+      "#internships",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      384,
+      78,
+      189,
+      2,
+      236,
+      278,
+      3,
+      379,
+      6,
+      169,
+      214,
+      393,
+      337,
+      206,
+      284,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 373,
+    "username": "ta_chris_373",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#exam",
+      "#officehours",
+      "#cs",
+      "#grading",
+      "#study"
+    ],
+    "followed_user_ids": [
+      338,
+      265,
+      3,
+      199,
+      169,
+      2,
+      337,
+      258,
+      379,
+      51
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 374,
+    "username": "zoe_lee74",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#cs",
+      "#internships",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      265,
+      170,
+      346,
+      238,
+      138,
+      337,
+      330,
+      230
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 375,
+    "username": "hassan_sharma75",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#cs",
+      "#hackathons",
+      "#webdev",
+      "#python"
+    ],
+    "followed_user_ids": [
+      3,
+      388,
+      322,
+      27,
+      259,
+      235,
+      51,
+      250,
+      229
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 376,
+    "username": "elena_park76",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#campuslife",
+      "#study"
+    ],
+    "followed_user_ids": [
+      51,
+      229,
+      284
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 377,
+    "username": "maya_brown77",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#hackathons",
+      "#ai",
+      "#systems",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      157,
+      3,
+      189,
+      214,
+      168,
+      27,
+      6,
+      38,
+      159,
+      207,
+      9,
+      352,
+      11
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 378,
+    "username": "ava_williams78",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#clubs",
+      "#advice",
+      "#freshman"
+    ],
+    "followed_user_ids": [
+      3,
+      217,
+      252
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 379,
+    "username": "wei_jones79",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#ai",
+      "#coding",
+      "#cs",
+      "#webdev",
+      "#python"
+    ],
+    "followed_user_ids": [
+      3,
+      235,
+      8,
+      54,
+      230,
+      388,
+      355
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 380,
+    "username": "chen_kim80",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#coding",
+      "#systems",
+      "#internships"
+    ],
+    "followed_user_ids": [
+      214,
+      289,
+      59,
+      170,
+      16,
+      382,
+      5,
+      30,
+      229,
+      9,
+      87,
+      352,
+      266,
+      144,
+      3,
+      398
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 381,
+    "username": "ta_amina_381",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#grading",
+      "#math",
+      "#study",
+      "#homework"
+    ],
+    "followed_user_ids": [
+      170,
+      174,
+      9,
+      107,
+      278,
+      3,
+      235,
+      2,
+      267,
+      214,
+      14
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 382,
+    "username": "HackersOrg_382",
+    "department": "Student Life & Clubs",
+    "persona": "Campus_Club",
+    "preferred_tags": [
+      "#events",
+      "#sports",
+      "#fest",
+      "#campuslife",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      367,
+      170,
+      258,
+      303,
+      8,
+      20,
+      87,
+      54
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 383,
+    "username": "elena_garcia83",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#campuslife",
+      "#study",
+      "#advice"
+    ],
+    "followed_user_ids": [
+      337
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 384,
+    "username": "ta_noah_384",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#grading",
+      "#math",
+      "#cs",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      284,
+      140,
+      382,
+      76,
+      331,
+      212,
+      3,
+      235
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 385,
+    "username": "rahul_chen85",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#clubs",
+      "#study",
+      "#campuslife",
+      "#research"
+    ],
+    "followed_user_ids": [
+      398
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 386,
+    "username": "ava_sharma86",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#cs",
+      "#internships",
+      "#ai",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      393,
+      9,
+      54,
+      21,
+      3,
+      235,
+      166,
+      355,
+      214,
+      168,
+      289,
+      347,
+      337,
+      170,
+      114,
+      349,
+      303,
+      51
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 387,
+    "username": "mia_park87",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#python",
+      "#internships",
+      "#systems",
+      "#webdev",
+      "#coding"
+    ],
+    "followed_user_ids": [
+      10,
+      284,
+      9,
+      165,
+      399,
+      169,
+      214,
+      382
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 388,
+    "username": "ta_emma_388",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#homework",
+      "#grading",
+      "#study"
+    ],
+    "followed_user_ids": [
+      321,
+      46,
+      278,
+      399,
+      212,
+      146,
+      2,
+      178,
+      357,
+      157,
+      235,
+      214,
+      250,
+      373,
+      9,
+      44
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 389,
+    "username": "mei_garcia89",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#campuslife",
+      "#advice",
+      "#research"
+    ],
+    "followed_user_ids": [
+      331,
+      235
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 390,
+    "username": "ethan_schmidt90",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#advice",
+      "#freshman",
+      "#study",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      295,
+      74
+    ],
+    "blocked_user_ids": [
+      273
+    ]
+  },
+  {
+    "user_id": 391,
+    "username": "hiroshi_chen91",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#crispr",
+      "#academia"
+    ],
+    "followed_user_ids": [
+      212,
+      259,
+      180,
+      337,
+      304,
+      258,
+      74,
+      237,
+      9
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 392,
+    "username": "liam_wang92",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#biochem",
+      "#crispr",
+      "#research",
+      "#lablife",
+      "#biotech"
+    ],
+    "followed_user_ids": [
+      218,
+      3,
+      81,
+      2,
+      214,
+      303
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 393,
+    "username": "ta_arjun_393",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#math",
+      "#homework",
+      "#exam",
+      "#sports"
+    ],
+    "followed_user_ids": [
+      357,
+      170,
+      235,
+      238,
+      28,
+      381,
+      8,
+      9,
+      349,
+      218,
+      185,
+      230,
+      331,
+      265,
+      209,
+      2,
+      315,
+      355
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 394,
+    "username": "arjun_rossi94",
+    "department": "Computer Science & AI",
+    "persona": "CS_Undergrad",
+    "preferred_tags": [
+      "#webdev",
+      "#ai",
+      "#coding",
+      "#python",
+      "#systems"
+    ],
+    "followed_user_ids": [
+      235,
+      35,
+      238,
+      61,
+      361,
+      230,
+      76,
+      22,
+      87
+    ],
+    "blocked_user_ids": [
+      2
+    ]
+  },
+  {
+    "user_id": 395,
+    "username": "morgan_gupta95",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#housing",
+      "#study",
+      "#campuslife",
+      "#clubs"
+    ],
+    "followed_user_ids": [
+      6,
+      260,
+      189
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 396,
+    "username": "sofia_garcia96",
+    "department": "General Studies",
+    "persona": "Freshman",
+    "preferred_tags": [
+      "#study",
+      "#housing",
+      "#freshman",
+      "#clubs",
+      "#campuslife"
+    ],
+    "followed_user_ids": [
+      7
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 397,
+    "username": "lucas_rossi97",
+    "department": "Biology & Bioengineering",
+    "persona": "Bio_Researcher",
+    "preferred_tags": [
+      "#research",
+      "#crispr",
+      "#biochem",
+      "#genomics",
+      "#biotech"
+    ],
+    "followed_user_ids": [
+      20,
+      337,
+      276,
+      285,
+      222,
+      2,
+      170,
+      3,
+      379,
+      81,
+      48
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 398,
+    "username": "ta_elena_398",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#math",
+      "#study",
+      "#exam",
+      "#officehours",
+      "#cs"
+    ],
+    "followed_user_ids": [
+      279,
+      357,
+      382,
+      9,
+      276,
+      235,
+      204
+    ],
+    "blocked_user_ids": []
+  },
+  {
+    "user_id": 399,
+    "username": "ta_emma_399",
+    "department": "Mathematics & Computing",
+    "persona": "Course_TA",
+    "preferred_tags": [
+      "#study",
+      "#homework",
+      "#math",
+      "#officehours",
+      "#grading"
+    ],
+    "followed_user_ids": [
+      355,
+      322,
+      214,
+      279,
+      357,
+      74,
+      51,
+      316,
+      361,
+      76,
+      9,
+      54,
+      301,
+      398,
+      2
+    ],
+    "blocked_user_ids": []
+  }
+]
