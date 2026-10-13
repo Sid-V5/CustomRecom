@@ -87,6 +87,7 @@ async function initApp() {
     renderWhoToFollow();
     loadFeed();
     checkAttackStatus();
+    loadBenchmarks();
   } catch (err) {
     console.error("Initialization error:", err);
     showToast("Failed to connect to recommendation server.");
@@ -657,6 +658,9 @@ function updateUserProfileUI() {
   if (handleEl) handleEl.textContent = `@${user.username.toLowerCase()}`;
   if (avatarEl) avatarEl.textContent = user.username.substring(0, 2).toUpperCase();
 
+  const composerAvatar = document.getElementById("composer-avatar");
+  if (composerAvatar) composerAvatar.textContent = user.username.substring(0, 2).toUpperCase();
+
   if (badgeEl) {
     if (user.is_cold_start) {
       badgeEl.classList.remove("hidden");
@@ -722,8 +726,63 @@ function toggleFollow(btn) {
   loadFeed();
 }
 
+function focusComposer() {
+  const input = document.getElementById("composer-input");
+  if (input) {
+    input.focus();
+    input.scrollIntoView({ behavior: 'smooth' });
+  } else {
+    showToast("Composer ready!");
+  }
+}
+
+function handleQuickPost() {
+  const input = document.getElementById("composer-input");
+  if (!input || !input.value.trim()) {
+    showToast("Please write something to post!");
+    return;
+  }
+  const text = input.value.trim();
+  input.value = "";
+
+  const user = appState.users.find(u => u.user_id === appState.currentUserId) || {
+    username: "Me",
+    department: "Campus",
+  };
+
+  const newPost = {
+    post_id: 88888 + Math.floor(Math.random() * 1000),
+    author_id: appState.currentUserId,
+    author_username: user.username,
+    author_department: user.department,
+    content: text,
+    department: user.department,
+    tags: ["#campus", "#quad"],
+    created_at: new Date().toISOString(),
+    likes_count: 0,
+    replies_count: 0,
+    source: "in_network",
+    p_like: 0.95,
+    p_reply: 0.25,
+    p_skip: 0.05,
+    final_score: 1.45,
+    explanation: {
+      similarity_type: "in_network",
+      in_network_author: true,
+      collaborative_score: 0.92,
+      content_score: 0.85,
+      social_network_affinity: 1.0,
+      rule_used: "Author is In-Network (Following)"
+    }
+  };
+
+  appState.activeFeed.unshift(newPost);
+  renderFeed();
+  showToast("Published to campus feed! 🚀");
+}
+
 // ============================================================
-// SETTINGS DRAWER (SLIDERS, SANDBOX, FUNNEL - Image 2 Red Circle)
+// SETTINGS DRAWER (SLIDERS, SANDBOX, BENCHMARKS, FUNNEL)
 // ============================================================
 
 function openSettingsDrawer(initialTab = "sliders") {
@@ -748,24 +807,29 @@ function closeSettingsDrawer() {
 }
 
 function switchDrawerTab(tab) {
-  // Update tabs
-  ["sliders", "sandbox", "funnel"].forEach(t => {
+  const tabs = ["sliders", "benchmarks", "sandbox", "funnel"];
+  tabs.forEach(t => {
     const btn = document.getElementById(`drawer-tab-${t}`);
     const sec = document.getElementById(`drawer-section-${t}`);
     if (btn) {
       if (t === tab) {
-        btn.classList.add("border-accentContrast", "text-textPrimary", "font-bold");
-        btn.classList.remove("border-transparent", "text-textMuted");
+        btn.classList.add("active");
       } else {
-        btn.classList.remove("border-accentContrast", "text-textPrimary", "font-bold");
-        btn.classList.add("border-transparent", "text-textMuted");
+        btn.classList.remove("active");
       }
     }
     if (sec) {
-      if (t === tab) sec.classList.remove("hidden");
-      else sec.classList.add("hidden");
+      if (t === tab) {
+        sec.classList.remove("hidden");
+      } else {
+        sec.classList.add("hidden");
+      }
     }
   });
+
+  if (tab === "benchmarks") {
+    loadBenchmarks();
+  }
 }
 
 function handleSliderChange() {
@@ -942,15 +1006,12 @@ function toggleDefenseFromDrawer(checked) {
 // ACADEMIC BENCHMARKS & EVALUATION MODAL
 // ============================================================
 
-async function openBenchmarkModal() {
-  const modal = document.getElementById("benchmark-modal");
-  if (modal) modal.classList.remove("hidden");
-  loadBenchmarks();
+function openBenchmarkModal() {
+  openSettingsDrawer("benchmarks");
 }
 
 function closeBenchmarkModal() {
-  const modal = document.getElementById("benchmark-modal");
-  if (modal) modal.classList.add("hidden");
+  closeSettingsDrawer();
 }
 
 async function loadBenchmarks() {

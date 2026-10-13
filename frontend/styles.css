@@ -226,6 +226,33 @@ body {
   border-left: 1px solid var(--border-subtle);
   transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
+
+/* Drawer Segmented Navigation Pills */
+.drawer-tab-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.55rem 0.35rem;
+  border-radius: 0.55rem;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  color: var(--text-muted);
+  border: 1px solid transparent;
+  user-select: none;
+}
+.drawer-tab-btn:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-surface-hover);
+}
+.drawer-tab-btn.active {
+  background-color: var(--accent-contrast) !important;
+  color: var(--accent-contrast-text) !important;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
 .modal-box {
   background-color: var(--bg-surface-elevated);
   border: 1px solid var(--border-medium);

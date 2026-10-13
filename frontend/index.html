@@ -34,7 +34,7 @@
     }
   </script>
   
-  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="/static/styles.css?v=5.0">
 </head>
 <body class="bg-canvas text-textPrimary min-h-screen flex flex-col justify-between selection:bg-neutral-800 selection:text-white">
 
@@ -108,22 +108,16 @@
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>
             <span>Sliders &amp; Settings</span>
           </a>
-
-          <!-- Benchmarks & Academic Report -->
-          <a id="nav-benchmarks" onclick="openBenchmarkModal()" class="nav-item">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
-            <span>Benchmarks (Eval)</span>
-          </a>
         </nav>
 
-        <!-- Quick Post Simulator Button & Profile Card placed together -->
-        <div class="pt-2 space-y-2.5">
-          <button onclick="openSettingsDrawer('sandbox')" class="w-full bg-accentContrast text-[var(--accent-contrast-text)] hover:opacity-90 font-semibold py-2.5 px-4 rounded-full text-sm transition shadow-sm flex items-center justify-center gap-2 cursor-pointer">
-            <span>🛡️ Attack Sandbox</span>
+        <!-- Social Action: Post Button & Profile Card (Real Social App Look) -->
+        <div class="pt-3 space-y-3">
+          <button onclick="focusComposer()" class="w-full bg-accentContrast text-[var(--accent-contrast-text)] hover:opacity-90 font-bold py-3 px-4 rounded-full text-sm transition shadow-sm flex items-center justify-center cursor-pointer">
+            <span>Post</span>
           </button>
 
-          <!-- Active User Profile Option (Directly below Attack Sandbox) -->
-          <div onclick="openProfileModal()" class="flex items-center justify-between p-2.5 rounded-xl hover:bg-surfaceHover border border-borderSubtle cursor-pointer transition select-none bg-surface/50">
+          <!-- Active User Profile Option -->
+          <div onclick="openProfileModal()" class="flex items-center justify-between p-2.5 rounded-full hover:bg-surfaceHover border border-transparent hover:border-borderSubtle cursor-pointer transition select-none bg-surface/40">
             <div class="flex items-center gap-2.5 min-w-0">
               <div id="user-avatar" class="w-9 h-9 rounded-full bg-surfaceElevated border border-borderMedium flex items-center justify-center font-bold text-xs text-textPrimary shrink-0">
                 U
@@ -136,7 +130,7 @@
                 <p id="user-handle" class="text-[11px] text-textMuted font-mono truncate">@user</p>
               </div>
             </div>
-            <svg class="w-4 h-4 text-textMuted shrink-0 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/></svg>
+            <svg class="w-4 h-4 text-textMuted shrink-0 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"/></svg>
           </div>
         </div>
 
@@ -194,6 +188,32 @@
           <button onclick="clearActiveFilter()" class="text-[11px] underline hover:text-textPrimary">Clear Filter</button>
         </div>
       </header>
+
+      <!-- Quick Post Composer (Authentic Social Media Feed Header) -->
+      <div class="p-4 border-b border-borderSubtle bg-surface/30">
+        <div class="flex gap-3">
+          <div id="composer-avatar" class="w-10 h-10 rounded-full bg-surfaceElevated border border-borderMedium flex items-center justify-center font-bold text-xs text-textPrimary shrink-0">
+            U
+          </div>
+          <div class="flex-1 space-y-2.5">
+            <textarea 
+              id="composer-input" 
+              rows="2" 
+              placeholder="What is happening on campus?!" 
+              class="w-full bg-transparent text-textPrimary placeholder:text-textMuted text-sm border-none focus:outline-none resize-none"
+            ></textarea>
+            <div class="flex items-center justify-between pt-2 border-t border-borderSubtle/50">
+              <div class="flex items-center gap-3 text-textMuted text-xs">
+                <span class="hover:text-textPrimary cursor-pointer flex items-center gap-1">🏷️ <span class="text-[11px]">#hackathon</span></span>
+                <span class="hover:text-textPrimary cursor-pointer flex items-center gap-1">📍 <span class="text-[11px]">Quad</span></span>
+              </div>
+              <button onclick="handleQuickPost()" class="px-4 py-1.5 bg-accentContrast text-[var(--accent-contrast-text)] rounded-full text-xs font-bold hover:opacity-90 transition cursor-pointer">
+                Post
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- The Timeline Feed Container -->
       <div id="feed-list" class="divide-y divide-borderSubtle flex-1">
@@ -275,29 +295,18 @@
           </div>
         </div>
 
-        <!-- Recommender Control Card (Moved up so it is fully visible and not cut off) -->
-        <div class="bg-surface rounded-2xl border border-borderSubtle p-4 space-y-3 text-xs">
-          <div class="flex items-center justify-between">
-            <span class="font-bold text-textPrimary">Recommender Control</span>
-            <span id="sidebar-defense-badge" class="font-mono text-[11px] text-textMuted">Disabled</span>
+        <!-- Campus Social App Footer -->
+        <div class="px-3 text-[11px] text-textMuted space-y-1.5 leading-relaxed pt-2">
+          <div class="flex flex-wrap gap-x-2 gap-y-1">
+            <a href="#" class="hover:underline">Terms of Service</a>
+            <span>•</span>
+            <a href="#" class="hover:underline">Privacy Policy</a>
+            <span>•</span>
+            <a href="#" class="hover:underline">Campus Guidelines</a>
+            <span>•</span>
+            <span onclick="openSettingsDrawer('benchmarks')" class="hover:underline cursor-pointer">RecSys Lab</span>
           </div>
-          
-          <div class="text-[11px] text-textSecondary space-y-1.5">
-            <div class="flex justify-between">
-              <span>Catalog Corpus:</span>
-              <span class="font-mono font-bold text-textPrimary">3,500 posts</span>
-            </div>
-            <div class="flex justify-between">
-              <span>Active Students:</span>
-              <span class="font-mono font-bold text-textPrimary">400 users</span>
-            </div>
-          </div>
-
-          <div class="pt-2 border-t border-borderSubtle">
-            <button onclick="openSettingsDrawer()" class="w-full py-2 bg-surfaceHover hover:bg-surfaceElevated border border-borderSubtle text-textPrimary rounded-xl text-xs font-semibold transition text-center flex items-center justify-center gap-1.5 cursor-pointer">
-              <span>⚙️ Sliders &amp; Attack Sandbox</span>
-            </button>
-          </div>
+          <p class="text-textMuted/70">&copy; 2026 Varsity Social, Inc.</p>
         </div>
 
       </div>
@@ -310,30 +319,39 @@
   <!-- ========================================================= -->
   <div id="settings-drawer-backdrop" onclick="closeSettingsDrawer()" class="fixed inset-0 z-50 drawer-backdrop opacity-0 pointer-events-none transition-opacity duration-200"></div>
 
-  <div id="settings-drawer-panel" class="fixed top-0 right-0 z-50 w-full sm:w-[480px] h-full drawer-panel shadow-2xl translate-x-full flex flex-col justify-between">
+  <div id="settings-drawer-panel" class="fixed top-0 right-0 z-50 w-full sm:w-[540px] md:w-[620px] h-full drawer-panel shadow-2xl translate-x-full flex flex-col justify-between">
     
     <!-- Drawer Header -->
     <div class="px-5 py-4 border-b border-borderSubtle flex items-center justify-between bg-surfaceElevated shrink-0">
       <div class="flex items-center gap-2">
-        <h2 class="font-bold text-base text-textPrimary">Recommender Settings &amp; Sandbox</h2>
-        <span class="badge-clean text-[10px]">Varsity Control</span>
+        <h2 class="font-bold text-base text-textPrimary">Settings &amp; RecSys Lab</h2>
+        <span class="badge-clean text-[10px]">Varsity Engine</span>
       </div>
       <button onclick="closeSettingsDrawer()" class="w-8 h-8 rounded-full flex items-center justify-center hover:bg-surfaceHover text-textMuted hover:text-textPrimary transition">
         ✕
       </button>
     </div>
 
-    <!-- Drawer Navigation Tabs -->
-    <div class="flex border-b border-borderSubtle bg-surface shrink-0 text-xs">
-      <button id="drawer-tab-sliders" onclick="switchDrawerTab('sliders')" class="flex-1 py-2.5 font-bold text-center border-b-2 border-accentContrast text-textPrimary">
-        Scoring Sliders
-      </button>
-      <button id="drawer-tab-sandbox" onclick="switchDrawerTab('sandbox')" class="flex-1 py-2.5 font-medium text-center border-b-2 border-transparent text-textMuted hover:text-textPrimary">
-        Attack Sandbox
-      </button>
-      <button id="drawer-tab-funnel" onclick="switchDrawerTab('funnel')" class="flex-1 py-2.5 font-medium text-center border-b-2 border-transparent text-textMuted hover:text-textPrimary">
-        Funnel Telemetry
-      </button>
+    <!-- Drawer Navigation Tabs (Segmented Control Bar - All 4 Tabs 100% Visible) -->
+    <div class="p-3 border-b border-borderSubtle bg-surface shrink-0">
+      <div class="grid grid-cols-4 gap-1.5 p-1 bg-surfaceElevated rounded-xl border border-borderSubtle text-center">
+        <button id="drawer-tab-sliders" onclick="switchDrawerTab('sliders')" class="drawer-tab-btn active">
+          <span>⚙️</span>
+          <span>Sliders</span>
+        </button>
+        <button id="drawer-tab-benchmarks" onclick="switchDrawerTab('benchmarks')" class="drawer-tab-btn">
+          <span>📊</span>
+          <span>Benchmarks</span>
+        </button>
+        <button id="drawer-tab-sandbox" onclick="switchDrawerTab('sandbox')" class="drawer-tab-btn">
+          <span>🛡️</span>
+          <span>Sandbox</span>
+        </button>
+        <button id="drawer-tab-funnel" onclick="switchDrawerTab('funnel')" class="drawer-tab-btn">
+          <span>🔬</span>
+          <span>Funnel</span>
+        </button>
+      </div>
     </div>
 
     <!-- Drawer Content (Scrollable) -->
@@ -343,6 +361,26 @@
       <!-- TAB 1: SCORING SLIDERS -->
       <!-- ===================================================== -->
       <div id="drawer-section-sliders" class="space-y-5">
+        
+        <!-- High-Visibility Benchmarks & Evals Top Banner Card -->
+        <div onclick="switchDrawerTab('benchmarks')" class="p-3.5 rounded-xl bg-surface border border-borderMedium flex items-center justify-between hover:bg-surfaceHover transition cursor-pointer group shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-lg bg-surfaceElevated border border-borderSubtle flex items-center justify-center text-base shrink-0 group-hover:scale-105 transition-transform">
+              📊
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-xs text-textPrimary">Offline Benchmarks &amp; Evals</span>
+                <span class="badge-clean text-[9px]">8 Models Tested</span>
+              </div>
+              <p class="text-[11px] text-textMuted">NDCG@10, P@10, Recall@10, Coverage, ILD, Cold-Start &amp; Ablations</p>
+            </div>
+          </div>
+          <span class="text-xs font-bold text-textPrimary group-hover:translate-x-0.5 transition-transform shrink-0 ml-2">
+            View &rarr;
+          </span>
+        </div>
+
         <div class="flex items-center justify-between pb-2 border-b border-borderSubtle">
           <div>
             <h3 class="font-bold text-sm text-textPrimary">Live Heavy Ranker Weights</h3>
@@ -406,6 +444,23 @@
           <p class="text-[10px] text-textMuted">Exponential decay penalty per elapsed hour</p>
         </div>
 
+        <!-- Quick Jump to Benchmarks & Evals Card inside Sliders Tab -->
+        <div class="p-4 rounded-xl bg-surface border border-borderSubtle space-y-2.5 mt-3">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="text-base">📊</span>
+              <span class="font-bold text-textPrimary text-xs">Offline Benchmarks &amp; Evals</span>
+            </div>
+            <span class="badge-clean text-[10px]">8 Models Tested</span>
+          </div>
+          <p class="text-[11px] text-textMuted">
+            Inspect NDCG@10, Precision@10, Coverage, ILD diversity, Cold-Start cohort splits, and 6 pipeline ablations.
+          </p>
+          <button onclick="switchDrawerTab('benchmarks')" class="w-full py-2 bg-accentContrast text-[var(--accent-contrast-text)] rounded-xl text-xs font-semibold hover:opacity-90 transition flex items-center justify-center gap-1.5 cursor-pointer">
+            <span>Open Benchmarks &amp; Evals Suite &rarr;</span>
+          </button>
+        </div>
+
       </div>
 
       <!-- ===================================================== -->
@@ -466,7 +521,231 @@
       </div>
 
       <!-- ===================================================== -->
-      <!-- TAB 3: PIPELINE FUNNEL TELEMETRY -->
+      <!-- TAB 3: BENCHMARKS & EVALUATION SUITE -->
+      <!-- ===================================================== -->
+      <div id="drawer-section-benchmarks" class="hidden space-y-5">
+        <div class="pb-2 border-b border-borderSubtle flex items-center justify-between">
+          <div>
+            <h3 class="font-bold text-sm text-textPrimary">Evaluation Benchmarks &amp; Ablation Suite</h3>
+            <p class="text-[11px] text-textMuted">Offline evaluation across 8 models &amp; 6 ablations on 80/20 temporal splits</p>
+          </div>
+          <button onclick="loadBenchmarks()" class="text-[11px] text-textMuted hover:text-textPrimary underline">
+            Refresh
+          </button>
+        </div>
+
+        <!-- 1. Primary Model Comparison -->
+        <div class="space-y-2">
+          <h4 class="font-bold text-xs text-textPrimary">1. Primary Model Comparison</h4>
+          <div class="overflow-x-auto border border-borderSubtle rounded-xl">
+            <table class="w-full text-left font-mono text-[10.5px]">
+              <thead class="bg-surface text-textMuted border-b border-borderSubtle">
+                <tr>
+                  <th class="p-2">Model</th>
+                  <th class="p-2">NDCG@10</th>
+                  <th class="p-2">P@10</th>
+                  <th class="p-2">Recall@10</th>
+                  <th class="p-2">Coverage</th>
+                  <th class="p-2">ILD</th>
+                  <th class="p-2">RMSE</th>
+                </tr>
+              </thead>
+              <tbody id="benchmark-table-body" class="divide-y border-borderSubtle">
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textSecondary">Random Baseline</td>
+                  <td class="p-2">0.0000</td>
+                  <td class="p-2">0.0000</td>
+                  <td class="p-2">0.0000</td>
+                  <td class="p-2">13.2%</td>
+                  <td class="p-2">0.9504</td>
+                  <td class="p-2">--</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textSecondary">Popularity Baseline</td>
+                  <td class="p-2">0.0166</td>
+                  <td class="p-2">0.0160</td>
+                  <td class="p-2">0.0218</td>
+                  <td class="p-2">0.3%</td>
+                  <td class="p-2">0.8967</td>
+                  <td class="p-2">--</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textSecondary">User-kNN CF</td>
+                  <td class="p-2">0.0109</td>
+                  <td class="p-2">0.0080</td>
+                  <td class="p-2">0.0087</td>
+                  <td class="p-2">10.8%</td>
+                  <td class="p-2">0.9121</td>
+                  <td class="p-2">1.3726</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textSecondary">Item-kNN CF</td>
+                  <td class="p-2">0.0046</td>
+                  <td class="p-2">0.0040</td>
+                  <td class="p-2">0.0042</td>
+                  <td class="p-2">11.1%</td>
+                  <td class="p-2">0.9300</td>
+                  <td class="p-2">1.4665</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textSecondary">Matrix Factorization (iALS)</td>
+                  <td class="p-2">0.0139</td>
+                  <td class="p-2">0.0120</td>
+                  <td class="p-2">0.0127</td>
+                  <td class="p-2">10.6%</td>
+                  <td class="p-2">0.9153</td>
+                  <td class="p-2">--</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textSecondary">Content-Based TF-IDF</td>
+                  <td class="p-2">0.0031</td>
+                  <td class="p-2">0.0040</td>
+                  <td class="p-2">0.0040</td>
+                  <td class="p-2">13.1%</td>
+                  <td class="p-2">0.4315</td>
+                  <td class="p-2">--</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textSecondary">Two-Tower Neural CF</td>
+                  <td class="p-2">0.0057</td>
+                  <td class="p-2">0.0040</td>
+                  <td class="p-2">0.0107</td>
+                  <td class="p-2">6.3%</td>
+                  <td class="p-2">0.8073</td>
+                  <td class="p-2">--</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover bg-surface">
+                  <td class="p-2 font-bold text-textPrimary">Mini-X Hybrid Pipeline (Ours)</td>
+                  <td class="p-2 font-bold text-textPrimary">0.0186</td>
+                  <td class="p-2 font-bold text-textPrimary">0.0120</td>
+                  <td class="p-2 font-bold text-textPrimary">0.0156</td>
+                  <td class="p-2 font-bold text-textPrimary">10.0%</td>
+                  <td class="p-2 font-bold text-textPrimary">0.9599</td>
+                  <td class="p-2">--</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 2. Cold-Start Cohort Evaluation -->
+        <div class="space-y-2">
+          <h4 class="font-bold text-xs text-textPrimary">2. Cold-Start Cohort Evaluation</h4>
+          <div class="overflow-x-auto border border-borderSubtle rounded-xl">
+            <table class="w-full text-left font-mono text-[10.5px]">
+              <thead class="bg-surface text-textMuted border-b border-borderSubtle">
+                <tr>
+                  <th class="p-2">Model</th>
+                  <th class="p-2">NDCG@10</th>
+                  <th class="p-2">P@10</th>
+                  <th class="p-2">Recall@10</th>
+                  <th class="p-2">Coverage</th>
+                  <th class="p-2">ILD</th>
+                </tr>
+              </thead>
+              <tbody id="cold-benchmark-table-body" class="divide-y border-borderSubtle">
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textPrimary">User-kNN CF (Cold)</td>
+                  <td class="p-2">0.4064</td>
+                  <td class="p-2">0.3425</td>
+                  <td class="p-2">0.0035</td>
+                  <td class="p-2">2.9%</td>
+                  <td class="p-2">0.9150</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textPrimary">iALS (Cold)</td>
+                  <td class="p-2">0.3426</td>
+                  <td class="p-2">0.3250</td>
+                  <td class="p-2">0.0033</td>
+                  <td class="p-2">9.7%</td>
+                  <td class="p-2">0.9244</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textPrimary">Content-Based (Cold)</td>
+                  <td class="p-2">0.8711</td>
+                  <td class="p-2">0.8725</td>
+                  <td class="p-2">0.0093</td>
+                  <td class="p-2">4.8%</td>
+                  <td class="p-2">0.5747</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover bg-surface">
+                  <td class="p-2 font-bold text-textPrimary">Mini-X Hybrid Switch (Cold)</td>
+                  <td class="p-2 font-bold text-textPrimary">0.6719</td>
+                  <td class="p-2 font-bold text-textPrimary">0.7050</td>
+                  <td class="p-2 font-bold text-textPrimary">0.0076</td>
+                  <td class="p-2 font-bold text-textPrimary">4.5%</td>
+                  <td class="p-2 font-bold text-textPrimary">0.9025</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 3. Pipeline Ablations Matrix -->
+        <div class="space-y-2">
+          <h4 class="font-bold text-xs text-textPrimary">3. Pipeline Ablations Matrix (6 Experiments)</h4>
+          <div class="overflow-x-auto border border-borderSubtle rounded-xl">
+            <table class="w-full text-left font-mono text-[10.5px]">
+              <thead class="bg-surface text-textMuted border-b border-borderSubtle">
+                <tr>
+                  <th class="p-2">Ablation</th>
+                  <th class="p-2">NDCG@10</th>
+                  <th class="p-2">P@10</th>
+                  <th class="p-2">Coverage</th>
+                  <th class="p-2">ILD</th>
+                </tr>
+              </thead>
+              <tbody id="ablation-table-body" class="divide-y border-borderSubtle">
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textPrimary">Ablation 1: In-Network Only (Follow Graph Only)</td>
+                  <td class="p-2">0.0241</td>
+                  <td class="p-2">0.0140</td>
+                  <td class="p-2">8.3%</td>
+                  <td class="p-2">0.9198</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textPrimary">Ablation 2: Out-Network Only (No Follow Graph)</td>
+                  <td class="p-2">0.0179</td>
+                  <td class="p-2">0.0120</td>
+                  <td class="p-2">10.1%</td>
+                  <td class="p-2">0.9599</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textPrimary">Ablation 3: No Heavy Ranker (Pure Sourcing)</td>
+                  <td class="p-2">0.0139</td>
+                  <td class="p-2">0.0120</td>
+                  <td class="p-2">10.6%</td>
+                  <td class="p-2">0.9153</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textPrimary">Ablation 4: No MMR Diversity (&lambda; = 1.0)</td>
+                  <td class="p-2">0.0186</td>
+                  <td class="p-2">0.0120</td>
+                  <td class="p-2">10.0%</td>
+                  <td class="p-2">0.9152</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textPrimary">Ablation 5: Pure Diversity (&lambda; = 0.0)</td>
+                  <td class="p-2">0.0031</td>
+                  <td class="p-2">0.0040</td>
+                  <td class="p-2">13.1%</td>
+                  <td class="p-2">0.9634</td>
+                </tr>
+                <tr class="hover:bg-surfaceHover">
+                  <td class="p-2 font-bold text-textPrimary">Ablation 6: No Cold-Start Routing</td>
+                  <td class="p-2">0.0109</td>
+                  <td class="p-2">0.0080</td>
+                  <td class="p-2">10.8%</td>
+                  <td class="p-2">0.9121</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===================================================== -->
+      <!-- TAB 4: PIPELINE FUNNEL TELEMETRY -->
       <!-- ===================================================== -->
       <div id="drawer-section-funnel" class="hidden space-y-4">
         <div class="pb-2 border-b border-borderSubtle">
@@ -615,102 +894,11 @@
     </div>
   </div>
 
-  <!-- ========================================================= -->
-  <!-- MODAL: Academic Benchmarks & Evaluation Suite -->
-  <!-- ========================================================= -->
-  <div id="benchmark-modal" class="fixed inset-0 z-50 drawer-backdrop hidden flex items-center justify-center p-4">
-    <div class="modal-box w-full max-w-4xl max-h-[85vh] rounded-2xl p-6 space-y-5 flex flex-col animate-fadeIn">
-      
-      <div class="flex items-center justify-between border-b border-borderSubtle pb-3 shrink-0">
-        <div>
-          <h2 class="font-bold text-base text-textPrimary">Evaluation Benchmarks &amp; Ablation Suite</h2>
-          <p class="text-xs text-textMuted">Offline evaluation across 8 models &amp; 6 ablations</p>
-        </div>
-        <button onclick="closeBenchmarkModal()" class="w-8 h-8 rounded-full flex items-center justify-center hover:bg-surfaceHover text-textMuted hover:text-textPrimary">✕</button>
-      </div>
-
-      <div class="overflow-y-auto space-y-6 flex-1 text-xs pr-1">
-        <!-- Main Baselines Table -->
-        <div class="space-y-2">
-          <h3 class="font-bold text-sm text-textPrimary">1. Primary Model Comparison</h3>
-          <div class="overflow-x-auto border border-borderSubtle rounded-xl">
-            <table class="w-full text-left font-mono text-[11px]">
-              <thead class="bg-surface text-textMuted border-b border-borderSubtle">
-                <tr>
-                  <th class="p-2.5">Model</th>
-                  <th class="p-2.5">NDCG@10</th>
-                  <th class="p-2.5">P@10</th>
-                  <th class="p-2.5">Recall@10</th>
-                  <th class="p-2.5">Coverage</th>
-                  <th class="p-2.5">ILD (Diversity)</th>
-                  <th class="p-2.5">RMSE</th>
-                </tr>
-              </thead>
-              <tbody id="benchmark-table-body" class="divide-y border-borderSubtle">
-                <!-- Injected via app.js -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <!-- Cold Start Split Table -->
-        <div class="space-y-2">
-          <h3 class="font-bold text-sm text-textPrimary">2. Cold-Start Cohort Evaluation</h3>
-          <div class="overflow-x-auto border border-borderSubtle rounded-xl">
-            <table class="w-full text-left font-mono text-[11px]">
-              <thead class="bg-surface text-textMuted border-b border-borderSubtle">
-                <tr>
-                  <th class="p-2.5">Model</th>
-                  <th class="p-2.5">NDCG@10</th>
-                  <th class="p-2.5">P@10</th>
-                  <th class="p-2.5">Recall@10</th>
-                  <th class="p-2.5">Coverage</th>
-                  <th class="p-2.5">ILD</th>
-                </tr>
-              </thead>
-              <tbody id="cold-benchmark-table-body" class="divide-y border-borderSubtle">
-                <!-- Injected via app.js -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <!-- 6 Required Ablation Experiments Table -->
-        <div class="space-y-2">
-          <h3 class="font-bold text-sm text-textPrimary">3. Pipeline Ablations Matrix (All 6 Required Ablations)</h3>
-          <div class="overflow-x-auto border border-borderSubtle rounded-xl">
-            <table class="w-full text-left font-mono text-[11px]">
-              <thead class="bg-surface text-textMuted border-b border-borderSubtle">
-                <tr>
-                  <th class="p-2.5">Ablation Experiment</th>
-                  <th class="p-2.5">NDCG@10</th>
-                  <th class="p-2.5">P@10</th>
-                  <th class="p-2.5">Coverage</th>
-                  <th class="p-2.5">ILD</th>
-                </tr>
-              </thead>
-              <tbody id="ablation-table-body" class="divide-y border-borderSubtle">
-                <!-- Injected via app.js -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-
-      <div class="flex justify-end pt-2 border-t border-borderSubtle shrink-0">
-        <button onclick="closeBenchmarkModal()" class="px-5 py-2 bg-accentContrast text-[var(--accent-contrast-text)] rounded-full text-xs font-semibold hover:opacity-90 transition">
-          Close
-        </button>
-      </div>
-
-    </div>
-  </div>
-
   <!-- Toast Notification Container -->
   <div id="toast" class="fixed bottom-5 right-5 z-50 bg-accentContrast text-[var(--accent-contrast-text)] px-4 py-2.5 rounded-xl text-xs font-medium shadow-lg transform translate-y-16 opacity-0 transition-all duration-300 pointer-events-none">
     Notification
   </div>
 
-  <script src="/static/app.js"></script>
+  <script src="/static/app.js?v=5.0"></script>
 </body>
 </html>
