@@ -176,7 +176,7 @@ This document provides a simple, direct, spoken presentation script accompanying
 
 ---
 
-### Slide 10: Evaluation Benchmark & Conclusion
+### Slide 10: Evaluation Benchmark & References
 **Title**: *The hybrid beats every single model (Offline NDCG@10 comparison across 8 baselines).*
 
 #### 🎙️ Spoken Script
@@ -187,11 +187,14 @@ This document provides a simple, direct, spoken presentation script accompanying
 > - *Single models like pure User-kNN or pure iALS perform reasonably on warm users, but collapse whenever cold-start users appear.*
 > - *Our **Varsity Multi-Stage Hybrid** achieves the highest overall ranking accuracy (**NDCG@10 = 0.0186**), while delivering **0.9599 Intra-List Diversity** and **10% Catalog Coverage** across the entire campus.*
 >
-> *In summary: by taking the principles from our Recommender Systems syllabus—implicit confidence matrices, de-biased similarity metrics, switching cold-start hybrids, and MMR re-ranking—and arranging them in a 4-stage cascaded pipeline, Varsity demonstrates how modern, industrial-grade social feeds actually work.*
+> *For our references, we didn't use generic textbook theory. We based the system directly on three applied industry blueprints:*
+> 1. *First, **Twitter's 2023 Open-Source Algorithm** on GitHub, which gave us the blueprint for our 4-stage funnel and sub-50ms latency.*
+> 2. *Second, **Sarwar et al. (2001)** from ACM WWW, which provides the foundation for our Item-kNN similarity and Pearson rating de-biasing.*
+> 3. *Third, **Mobasher et al. (2007)** from ACM TIST, which gave us the math for our Bandwagon attack simulation and Jaccard botnet defense.*
 >
 > *Thank you! I’m happy to take any questions."*
 
-* **RecSys Concept**: Offline Evaluation; Temporal Split vs. Random Split (preventing data leakage); NDCG@10, Precision@10, Recall@10, Catalog Coverage, and ILD.
+* **RecSys Concept**: Offline Evaluation; Temporal Split vs. Random Split; Applied Industry Blueprints.
 * **Our Project Context**: The evaluation suite runs automatically in our backend and is viewable live inside the prototype's settings drawer.
 
 ---

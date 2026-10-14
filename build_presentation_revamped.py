@@ -800,66 +800,49 @@ add_mockup_panel(s9, "benchmark_table.png", Inches(7.0), Inches(1.75), Inches(5.
 
 
 # ==============================================================================
-# SLIDE 10: PROJECT REFERENCES & RESEARCH FOUNDATIONS (Formerly Slide 11)
-# (Kept only project-relevant literature with clean, large cards - NO textbook clutter!)
+# SLIDE 10: PROJECT REFERENCES & RESEARCH FOUNDATIONS
+# (Strictly the 3 applied architecture & security references from Column 2)
 # ==============================================================================
 s10 = prs.slides.add_slide(blank_layout)
 add_slide_background(s10)
-add_header(s10, "Project References & Architecture Foundations", "INDUSTRY DESIGN BLUEPRINTS & APPLIED RESEARCH")
+add_header(s10, "Project References & Applied Foundations", "SYSTEM ARCHITECTURE, COLLABORATIVE FILTERING & BOTNET DEFENSE")
 
-# 4 Clean, Elegant Reference Cards (2x2 Grid with generous spacing and large text)
-grid_w = Inches(5.6)
-grid_h = Inches(2.45)
-row1_y = Inches(1.75)
-row2_y = Inches(4.45)
-col1_x = Inches(0.8)
-col2_x = Inches(6.9)
+card_w = Inches(11.733)
+card_h = Inches(1.55)
+col_x = Inches(0.8)
 
 # Ref 1: X Corp. Algorithm
-add_card(s10, col1_x, row1_y, grid_w, grid_h,
-         title="X Corp. / Twitter Open Source (2023)",
+add_card(s10, col_x, Inches(1.75), card_w, card_h,
+         title="1. X Corp. / Twitter Open Source (2023)",
          subtitle="'The Algorithm: Recommendation Pipeline Architecture', GitHub",
          body_points=[
-             "• Architectural Blueprint for Varsity's Multi-Stage Lifecycle:",
-             "   - Sub-5ms Candidate Sourcing (In-Network + Out-Network) →",
-             "   - 12-Dimensional Feature Hydration → Calibrated Heavy Ranking →",
-             "   - Diversity Mixing & Social Network graph traversal."
+             "• Architectural Blueprint for Varsity's 4-Stage Feed Pipeline:",
+             "   - Sourcing: Sub-5ms parallel retrieval across graph walks, iALS, and neural candidates.",
+             "   - Ranking & Delivery: 12-dimensional feature hydration, multi-action scoring, and MMR diversity mixing."
          ],
          title_size=16.5, body_size=13, title_color=ACCENT_PRIMARY)
 
-# Ref 2: Hu, Koren, Volinsky (iALS)
-add_card(s10, col2_x, row1_y, grid_w, grid_h,
-         title="Yifan Hu, Yehuda Koren, Chris Volinsky (2008)",
-         subtitle="'Collaborative Filtering for Implicit Feedback Datasets', IEEE ICDM",
+# Ref 2: Sarwar et al. (Item-Based CF)
+add_card(s10, col_x, Inches(3.50), card_w, card_h,
+         title="2. Sarwar, Karypis, Konstan, Riedl (2001)",
+         subtitle="'Item-Based Collaborative Filtering Recommendation Algorithms', ACM WWW",
          body_points=[
-             "• Mathematical Foundation for Implicit RecSys:",
-             "   - Confidence matrix formulation: C_ui = 1 + α · r_ui",
-             "   - Alternating Least Squares (iALS) closed-form linear updates.",
-             "   - Core engine behind Varsity's 32-dim latent factor model."
+             "• Foundations for Post-to-Post Similarity & De-Biasing:",
+             "   - Item-kNN co-occurrence scoring and cosine similarity across interaction vectors.",
+             "   - Pearson correlation mean-centering to eliminate individual student rating bias."
          ],
          title_size=16.5, body_size=13, title_color=ACCENT_WARM)
 
-# Ref 3: Robin Burke (Hybrid Systems)
-add_card(s10, col1_x, row2_y, grid_w, grid_h,
-         title="Robin Burke (2002)",
-         subtitle="'Hybrid Recommender Systems: Survey and Experiments', UMUAI",
+# Ref 3: Mobasher et al. (Shilling Attacks)
+add_card(s10, col_x, Inches(5.25), card_w, card_h,
+         title="3. Mobasher, Burke, Bhaumik, Williams (2007)",
+         subtitle="'Toward Trustworthy Recommender Systems: Analysis of Shilling Attacks', ACM TIST",
          body_points=[
-             "• Theoretical Taxonomy for Hybrid Systems:",
-             "   - Switching Hybrid: Fallback from collaborative filtering to TF-IDF centroid matching when user interactions < 3.",
-             "   - Cascaded Ranking: Sourcing coarse candidates before fine-grained scoring."
+             "• Security Blueprint for Varsity's Botnet Attack Sandbox & Anomaly Detection:",
+             "   - Models realistic attack profiles: Random noise injection and Bandwagon target promotion.",
+             "   - Unsupervised Jaccard graph overlap filter to flag and isolate coordinated sybil clusters."
          ],
          title_size=16.5, body_size=13, title_color=ACCENT_PRIMARY)
-
-# Ref 4: Sarwar et al. (Item-Based CF) & Carbonell (MMR)
-add_card(s10, col2_x, row2_y, grid_w, grid_h,
-         title="Sarwar et al. (2001) & Carbonell et al. (1998)",
-         subtitle="'Item-Based Collaborative Filtering' (WWW) & 'MMR Diversity' (SIGIR)",
-         body_points=[
-             "• Similarity De-biasing & Diversity Re-Ranking:",
-             "   - Item-kNN co-occurrence, Pearson mean-centering & significance weighting.",
-             "   - Maximal Marginal Relevance (MMR) trade-off between relevance and topic spread."
-         ],
-         title_size=16.5, body_size=13, title_color=ACCENT_WARM)
 
 
 # ==============================================================================
